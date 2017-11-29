@@ -1,0 +1,73 @@
+body{
+    width : 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+
+.headerTitle, .contactInfo, .workers, .navigation , table , thead , td, tr{
+    box-sizing: border-box;
+}
+
+.headerTitle{
+    width: 80%;
+    font-size: 84px;
+    height: 100px;
+    text-align: center;
+    float: left;
+    border:solid black 2px;
+    border-bottom: hidden;
+}
+
+.contactInfo{
+    width: 20%;
+    height: 100px;
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    padding : 10px;
+    border:solid black 2px;
+    border-left: hidden;
+    border-bottom: hidden;
+}
+
+.workers{
+    width: 80%;
+    float: left;
+    padding: 20px;
+    border:solid black 2px;
+}
+
+.navigation{
+    width: 20%;
+    vertical-align: top;
+    text-align: center;
+    float: left;
+    padding: 1%;
+    border: solid black 2px;
+    border-left: hidden;
+    position: relative;
+}
+
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+
+.info{
+    width:80%;
+    float: left;
+}
+
+td{
+    border:solid black 1px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    border: solid black 2px;
+    font-weight: bold;
+}

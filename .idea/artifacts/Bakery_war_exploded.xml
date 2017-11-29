@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Bakery:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bakery_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Bakery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Bakery" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
