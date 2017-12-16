@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -42,35 +44,56 @@
         </div>
         <br>
         <%
-            for (int i = 0; i <4 ; i++) {
+            try {
+                ResultSet resultSet = DatabaseManager.getProductOrderingList((Connection)session.getAttribute("connection"), (int)session.getAttribute("id"));
+                int i = 0;
+                while(resultSet.next()){
                 %>
         <div style="border: solid black 1px; box-sizing: border-box; padding: 10px">
-                    Дата : <%="21.10.2017"%>
+            <div >Дата : <%=resultSet.getTimestamp("date")%></div>
                 <table style="border-collapse: collapse; width: 100%; margin: 0 auto">
                     <thead>
-                        <td style="width: 60%">Продукт</td>
-                        <td style="width: 20%">Кількість</td>
-                        <td style="width: 20%">Ціна</td>
+                        <td style="width: 40%">Продукт</td>
+                        <td style="width: 25%">Кількість</td>
+                        <td style="width: 35%">Ціна</td>
                     </thead>
                 <%
-                 for (int j = 0; j < 6; j++) {
+                    ResultSet resultSet2 = DatabaseManager.getLocalOrderProductionList((Connection)session.getAttribute("connection"), resultSet.getInt("id"));
+                    while(resultSet2.next()){
                      %>
                     <tr>
-                        <td><%="Булка"%></td>
-                        <td><%="20"%> шт.</td>
-                        <td><%="300"%> грн.</td>
+                        <td style="width: 40%"><%=resultSet2.getString("name")%></td>
+                        <td style="width: 25%"><%=resultSet2.getInt("count")%> шт.</td>
+                        <td style="width: 35%"><%=resultSet2.getInt("count")*resultSet2.getDouble("price")%> грн.</td>
                     </tr>
                     <%
                  }
                  %></table><br>
-                <div style="text-align: right">Загальна ціна : <%="2999"%> грн.</div>
+                <div style="text-align: right">Загальна ціна : <%=resultSet.getDouble("price")%> грн.</div>
+
+            <%
+                if((System.currentTimeMillis()-resultSet.getTimestamp("date").getTime())<1000*60*60){
+                    %>
+                    <br>
+            <form action="EditOrder">
+                    <input type="submit" value="Редагувати" name="edit">
+            </form>
+            <form action="DeleteOrder">
+                    <input type="submit" value="Відмінити замовлення" name="<%=resultSet.getInt("id")%>">(Якщо минуло менше години часу)
+            </form>
+                    <%
+                }
+            %>
+
                 <br>
-                <input type="button" value="Редагувати" id="edit"> <input type="button" value="Відмінити замовлення">
-                (Якщо минуло менше години часу)<br>
         </div>
         <br><br>
                 <%
-            }
+                            i++;
+                        }
+                        resultSet.close();
+                    } catch (Exception e) {
+                    }
         %>
     </div>
 </div>

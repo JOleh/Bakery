@@ -1,4 +1,7 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="sun.misc.BASE64Encoder" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -14,6 +17,7 @@
 
 <%
     if(session.getAttribute("level")==null) response.sendRedirect("index.jsp");
+    if(session.getAttribute("chosen_product_id")==null) response.sendRedirect("index.jsp");
     switch((int)session.getAttribute("level")){
         case 1: break;
         case 2: response.sendRedirect("resourcesStartPageForWorker.jsp");break;
@@ -25,22 +29,29 @@
 %>
 
 <div style="width: 50%; margin: auto; padding: 20px; box-sizing: border-box; border: solid black 2px;">
+    <%
+        try{
+            ResultSet resultSet = DatabaseManager.getProductByID((Connection)session.getAttribute("connection"), (int)session.getAttribute("chosen_product_id"));
+            resultSet.next();
+            byte [] image = resultSet.getBytes("image");
+            BASE64Encoder base64Encoder = new BASE64Encoder();
+    %>
     <div>
         <div style="margin: 0 auto; width: 100%; text-align: center">
-            <img src="<%%>" alt="image" style="height: 300px; border: solid black 1px; width: 280px">
+            <img src="data:image/png;base64, <%=base64Encoder.encode(image)%>" alt="image" style="height: 300px; width: 280px">
         </div>
         <br>
         <div>
             <div style="text-align: left; float: left">
-                <%="Назва"%>
+                <%=resultSet.getString("name")%>
             </div>
             <div style="text-align: right; float: right;">
-                Ціна за шт. <%="50"%> грн.
+                Ціна за шт. <%=resultSet.getDouble("price")%> грн.
             </div>
         </div>
         <br><br>
         <div>
-            <%="Дуже багато всякої інформації про продукт"%>
+            <%=resultSet.getString("info")%>
         </div>
         <br>
         <div>
@@ -65,6 +76,10 @@
             </form>
         </div>
     </div>
+    <%
+        } catch (Exception e) {
+        }
+    %>
     <br>
 </div>
 </body>

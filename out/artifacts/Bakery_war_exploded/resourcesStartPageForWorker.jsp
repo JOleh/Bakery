@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 03.11.2017
@@ -47,21 +49,31 @@
             <td style="width: 15%; text-align: center">Ціна за шт./л./кг.</td>
         </thead>
         <%
-            for (int i = 0; i <8 ; i++) {
+            try {
+                ResultSet resultSet = DatabaseManager.getResources((Connection)session.getAttribute("connection"));
+                while(resultSet.next()){
+                    if(resultSet.getBoolean("active")){
                 %>
                     <tr>
-                        <td style="border:solid black 1px"><%="Name"%></td>
-                        <td style="border:solid black 1px; text-align: center"><input type="text" id="count" value="<%="100"%>" style="width: 30px">
-                            <input type="text" id="show" value="<%="шт."%>"  style="width: 30px"></td>
-                        <td style="border:solid black 1px; text-align: center"><input type="text" id="price" value="<%="10"%>"  style="width: 30px"> грн.</td>
-                        <td><input type="button" value="Видалити" id="delete"></td>
+                        <td style="border:solid black 1px"><%=resultSet.getString("name")%></td>
+                        <td style="border:solid black 1px; text-align: center"><input type="text" id="count" value="<%=resultSet.getString("count")%>" style="width: 30px">
+                            <input type="text" id="show" value="<%=resultSet.getString("value")%>"  style="width: 30px"></td>
+                        <td style="border:solid black 1px; text-align: center"><input type="text" id="price" value="<%=resultSet.getString("price")%>"  style="width: 30px"> грн.</td>
+                        <td>
+                            <form action="">
+                            <input type="submit" value="Видалити" name="delete<%=resultSet.getInt("id")%>">
+                            </form>
+                        </td>
                     </tr>
                 <%
-            }
+                        }
+                }
+                    } catch (Exception e) {
+                    }
         %>
     </table>
     <br>
-    <input type="button" id="add" value="Додати">
+    <input type="submit" id="add" value="Додати">
 </div>
 <div class="navigation">
     <%=session.getAttribute("name")%> <%=session.getAttribute("surname")%><br><br>

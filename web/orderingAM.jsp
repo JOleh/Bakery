@@ -1,4 +1,7 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="javax.xml.crypto.Data" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 03.11.2017
@@ -37,35 +40,56 @@
     </div>
     <br>
         <%
-            for (int i = 0; i <4 ; i++) {
+            try {
+                ResultSet resultSet = DatabaseManager.getOrderProductionList((Connection)session.getAttribute("connection"));
+                int i = 0;
+                while(resultSet.next()){
                 %>
     <div style="border: solid black 1px; box-sizing: border-box; padding: 10px; width: 100%; margin: 0 auto">
-                    <div style="float:left; width: 50%">Замовник : <%="Consumer"%></div>
-                    <div style="float:left; text-align: right; width: 50%">Дата : <%="21.10.2017"%></div>
+                    <div style="float:left; width: 50%">Замовник : <%=resultSet.getString("uname")%> <%=resultSet.getString("usurname")%></div>
+                    <div style="float:left; text-align: right; width: 50%">Дата : <%=resultSet.getTimestamp("date")%></div>
                     <table style="border-collapse: collapse; width: 100%; margin: 0 auto">
                         <%
-                            for (int j = 0; j <4 ; j++) {
+                            ResultSet resultSet2 = DatabaseManager.getLocalOrderProductionList((Connection)session.getAttribute("connection"), resultSet.getInt("oid"));
+                            while(resultSet2.next()){
                                 %>
                                 <tr>
-                                    <td style="width: 50%"><%="Product"%></td>
-                                    <td style="width: 25%"><%="200"%> шт.</td>
-                                    <td style="width: 25%"><%="3000"%> грн.</td>
+                                    <td style="width: 40%"><%=resultSet2.getString("name")%></td>
+                                    <td style="width: 25%"><%=resultSet2.getInt("count")%> шт.</td>
+                                    <td style="width: 35%"><%=resultSet2.getInt("count")*resultSet2.getDouble("price")%> грн.</td>
                                 </tr>
                                 <%
                             }
+                            resultSet2.close();
                         %>
                     </table>
                     <br>
-                    <div style="text-align: right">Загальна ціна : <%="30000"%> грн.</div><br>
-                    <div style="float: left; width: 25%">Доставлено <input type="checkbox" id="ifDone" disabled></div>
-                    <div style="float: left; width: 25%">Відмовлено <input type="checkbox" id="ifRefused" disabled></div>
-                    <div style="float: left; width: 25%">Кур'єр <input type="checkbox" id="courier" disabled> <%="name"%></div>
-                    <div style="float:left; text-align: right; width: 25%"><input type="button" value="Відмовити" id="refuse"></div>
+                    <div style="text-align: right">Загальна ціна : <%=resultSet.getDouble("price")%> грн.</div><br>
+                    <div style="float: left; width: 25%">Доставлено <input type="checkbox" id="ifDone" disabled value="<%=resultSet.getBoolean("isdone")%>"></div>
+                    <div style="float: left; width: 25%">Відмовлено <input type="checkbox" id="ifRefused" disabled value="<%=resultSet.getBoolean("isrefused")%>"></div>
+                    <%
+
+                        if(false){
+                            System.out.println("address not null");
+                        ResultSet rs = DatabaseManager.getUserByID((Connection)session.getAttribute("connection"), resultSet.getInt("idcourier"));
+                        rs.next();
+                    %>
+                    <div style="float: left; width: 25%">Кур'єр <input type="checkbox" id="courier" disabled>id(<%=rs.getInt("id")%>) <%=rs.getString("name")%> <%=rs.getString("surname")%></div>
+                    <%
+                            rs.close();
+                        }
+                        System.out.println("after address");
+                    %>
+                    <div style="float:left; text-align: right; width: 25%"><input type="submit" value="Відмовити" id="refuse" %><br></div>
         <br>
     </div>
                     <br><br>
                 <%
-            }
+                            i++;
+                        }
+                        resultSet.close();
+                    } catch (Exception e) {
+                            }
         %>
 </div>
 </body>

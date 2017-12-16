@@ -2,7 +2,8 @@
 <%@ page import="Database.ConnectionFactory" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="Database.DatabaseManager" %>
-<%@ page import="java.sql.SQLException" %><%--
+<%@ page import="java.sql.SQLException" %>
+<%@ page import="sun.misc.BASE64Encoder" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 01.11.2017
@@ -48,7 +49,6 @@
     <div class="products">
       <table>
         <%
-
             try {
                       ResultSet resultSet = DatabaseManager.getProductsOnScreen((Connection)session.getAttribute("connection"));
                       int temporary = 0;
@@ -66,7 +66,11 @@
                   }
               %>
               <td style="box-sizing: border-box; text-align: center; padding: 20px 10px 10px;">
-                  <img src="<% %>" alt="image" style="height: 300px; width: 280px; border: solid black 1px;"><br><br>
+                  <%
+                    byte [] image = resultSet.getBytes("image");
+                    BASE64Encoder base64Encoder = new BASE64Encoder();
+                  %>
+                  <img src="data:image/png;base64, <%=base64Encoder.encode(image)%>" alt="image" style="height: 300px; width: 280px;"><br><br>
                   <div class="name">
                       <%=resultSet.getString("name")%>
                   </div>
@@ -78,6 +82,7 @@
               <%
                           i++;
                       }
+                      resultSet.close();
                   } catch (Exception e) {
                   }
               %></tr>

@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -47,14 +49,22 @@
             <td style="width: 35%">Кількість</td>
         </thead>
         <%
-            for (int i = 0; i <12 ; i++) {
+            try {
+                ResultSet resultSet = DatabaseManager.getResources((Connection)session.getAttribute("connection"));
+                int i = 0;
+                while(resultSet.next()){
+                    System.out.println("In resourceAM");
                 %>
                     <tr>
-                        <td><%="Молоко"%></td>
-                        <td><%="200"%> <%="л."%></td>
+                        <td><%=resultSet.getString("name")%></td>
+                        <td><%=resultSet.getDouble("count")%> <%=resultSet.getString("value")%></td>
                     </tr>
                 <%
-            }
+                            i++;
+                        }
+                        resultSet.close();
+                    } catch (Exception e) {
+                    }
         %>
     </table>
 </div>

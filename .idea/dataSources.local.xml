@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="PostgreSQL - postgres@localhost" uuid="068f9a66-680d-44ca-b294-42577bca0aa6">
+    <data-source name="bakery@localhost" uuid="ce9737f0-38db-44c6-b468-37495077e346">
       <database-info product="PostgreSQL" version="10.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
-      <introspection-schemas>postgres:public</introspection-schemas>
+      <introspection-schemas>bakery:public</introspection-schemas>
     </data-source>
   </component>
 </project>

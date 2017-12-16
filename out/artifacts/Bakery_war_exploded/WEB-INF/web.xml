@@ -131,4 +131,111 @@
         <url-pattern>/DeleteUser</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>OpenSingleProduct</servlet-name>
+        <servlet-class>EnterManager.OpenSingleProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OpenSingleProduct</servlet-name>
+        <url-pattern>/OpenSingleProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OpenProductFromAM</servlet-name>
+        <servlet-class>EnterManager.OpenProductFromAM</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OpenProductFromAM</servlet-name>
+        <url-pattern>/OpenProductFromAM</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveEditedProduct</servlet-name>
+        <servlet-class>SaveManager.SaveEditedProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveEditedProduct</servlet-name>
+        <url-pattern>/SaveEditedProduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetImage</servlet-name>
+        <servlet-class>SaveManager.GetImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetImage</servlet-name>
+        <url-pattern>/GetImage</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ProductOrder</servlet-name>
+        <servlet-class>OrderManager.ProductOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductOrder</servlet-name>
+        <url-pattern>/ProductOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveOrderProduction</servlet-name>
+        <servlet-class>OrderManager.SaveOrderProduction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveOrderProduction</servlet-name>
+        <url-pattern>/SaveOrderProduction</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteOrder</servlet-name>
+        <servlet-class>OrderManager.DeleteOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteOrder</servlet-name>
+        <url-pattern>/DeleteOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditOrder</servlet-name>
+        <servlet-class>OrderManager.EditOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditOrder</servlet-name>
+        <url-pattern>/EditOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SubmitDeliveryByCourier</servlet-name>
+        <servlet-class>OrderManager.SubmitDeliveryByCourier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitDeliveryByCourier</servlet-name>
+        <url-pattern>/SubmitDeliveryByCourier</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderResource</servlet-name>
+        <servlet-class>OrderManager.OrderResource</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderResource</servlet-name>
+        <url-pattern>/OrderResource</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConfirmRefuseResourceOrder</servlet-name>
+        <servlet-class>OrderManager.ConfirmRefuseResourceOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConfirmRefuseResourceOrder</servlet-name>
+        <url-pattern>/ConfirmRefuseResourceOrder</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SaveNewResource</servlet-name>
+        <servlet-class>SaveManager.SaveNewResource</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveNewResource</servlet-name>
+        <url-pattern>/SaveNewResource</url-pattern>
+    </servlet-mapping>
 </web-app>

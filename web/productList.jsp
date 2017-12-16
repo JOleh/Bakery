@@ -1,4 +1,8 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="sun.misc.BASE64Encoder" %>
+<%@ page import="java.util.ArrayList" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -12,6 +16,7 @@
     <link rel="stylesheet" href="CSS/productListStylesheet.css">
 </head>
 <body>
+
 
 <%
     if(session.getAttribute("level")==null) response.sendRedirect("index.jsp");
@@ -39,12 +44,19 @@
         <%=session.getAttribute("emailP")%>
     </div>
 </div>
+<form action="ProductOrder" id="form">
 <div class="products">
     <table>
+
             <%
-            int temporary = 0;
-          for (int i = 0; i < 9 ; i++) {
-              if(i-temporary==3){
+                ArrayList<Integer> idList = new ArrayList<>();
+                try {
+                    ResultSet resultSet = DatabaseManager.getProductsOnScreen((Connection)session.getAttribute("connection"));
+                    int temporary = 0;
+                    int i = 0;
+                    while(resultSet.next()){
+                        idList.add(resultSet.getInt("id"));
+                        if(i-temporary==3){
                     %>
         </tr> <%
         }
@@ -56,31 +68,75 @@
                 }
             %>
             <td style="box-sizing: border-box; padding: 10px; text-align: center">
+                <%
+                    byte [] image = resultSet.getBytes("image");
+                    BASE64Encoder base64Encoder = new BASE64Encoder();
+                %>
                 <div class="name">
-                <%="Name"%><br>
+                <%=resultSet.getString("name")%><br>
                 </div >
-                <a href="singleProductForConsumer.jsp"><img src="<% %>" alt="image" style="width: 280px; height: 300px; border: solid black 1px"></a>
+
+                <a href="OpenSingleProduct?productlink=<%=resultSet.getInt("id")%>" name="productlink">
+                    <img src="data:image/png;base64, <%=base64Encoder.encode(image)%>" alt="image" style="width: 280px; height: 300px; ">
+                </a>
                 <br><br>
+
                 <div class="plusminus">
-                    <input type="button" value="+" id="plus">
-                    <input type="number" id="number" min="0" max="10000" style="width: 40px">
-                    <input type="button" value="-" id="minus">
+
+                    <%--<form action="ProductOrder" id="form<%=resultSet.getInt("id")%>">--%>
+                    <input type="number" name="<%=resultSet.getInt("id")%>" min="0" max="10000" style="float:left;width: 40px">
+                   <%-- </form>--%>
+
                 </div>
                 <div class="price">
-                    <%="25"%>грн.
+                    <%=resultSet.getDouble("price")%>грн.
                 </div>
             </td>
             <%
-                }
+                        i++;
+            }
+            resultSet.close();
+            } catch (Exception e) {
+            }
             %></tr>
     </table>
 </div>
 <div class="navigation">
     <%=session.getAttribute("name")%> <%=session.getAttribute("surname")%><br><br>
+    <%--<%
+
+        for (Integer i : idList) {
+            System.out.println("loop "+i);
+            %>
+    <script>
+                addForm(<%=i%>);
+    </script>
+            <%
+        }
+
+    %>--%>
+
+        <input type="submit" value="Корзина" name="basket" style="width: 80%; text-align: center" onclick="submitForms()"><br>
+
     <form action="EnterFromConsumer">
-        <input type="submit" value="Корзина" name="basket" style="width: 80%; text-align: center"><br>
         <input type="submit" value="Історія замовлень" name="history" style="width: 80%; text-align: center">
     </form>
+    <%--<script>
+        submitForms = function() {
+
+            $('#').find('#form13:input').not(':submit').clone().hide().appendTo('#form');
+
+            document.getElementById("form").submit();
+        };
+    </script>
+    <SCRIPT>
+        var addForm = function (i){
+            str = 'form'+i.toString();
+            $('#').find('#'+str+':input').not(':submit').clone().hide().appendTo('#form');
+            //$('#form :input').not(':submit').clone().hide().appendTo('#form');
+        }
+    </SCRIPT>--%>
 </div>
+</form>
 </body>
 </html>

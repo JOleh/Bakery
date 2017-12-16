@@ -84,8 +84,9 @@
             </tr>
         </table>
         <br>
-        <div style="float: left;"><input type="button" value="OK" id="ok">
-            <input type="button" value="Cancel" id="cancel">
+        <div style="float: left;">
+            <input type="submit" value="OK" name="ok">
+            <input type="submit" value="Cancel" name="cancel">
         </div>
         <div style="float: right">
             <form action="DeleteUser">
@@ -101,7 +102,7 @@
         }
 
     %>
-    <input type="button" id="add" value="Додати користувача">
+    <input type="submit" id="add" value="Додати користувача">
 </div>
 <div class="navigation">
     <%=session.getAttribute("name")%> <%=session.getAttribute("surname")%><br><br>

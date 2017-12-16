@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 03.11.2017
@@ -39,22 +41,32 @@
             <input type="submit" value="Назад" id="back">
             </form>
         </div>
+        <%
+            try{
+                ResultSet resultSet = DatabaseManager.getBudget((Connection)session.getAttribute("connection"));
+                int i = 0;
+                resultSet.next();
+        %>
         <br>
-        <div>Бюджет : <%="300000"%> грн.</div><br><br>
+        <div>Бюджет : <%=resultSet.getDouble("budget")%> грн.</div><br><br>
         <table style="width: 100%; border-collapse: collapse; text-align: center;">
             <thead>
                 <td style="width: 50%">Дата</td>
                 <td style="width: 50%">Сума</td>
             </thead>
             <%
-                for (int i = 0; i <8 ; i++) {
+                do{
                     %>
                         <tr>
-                            <td><%="21.10.2007"%></td>
-                            <td><%="2000000"%> грн.</td>
+                            <td><%=resultSet.getTimestamp("recording_date")%></td>
+                            <td><%=resultSet.getDouble("budget")%> грн.</td>
                         </tr>
                     <%
-                }
+                                i++;
+                            }while(resultSet.next());
+                resultSet.close();
+                        } catch (Exception e) {
+                        }
             %>
         </table>
     </div>

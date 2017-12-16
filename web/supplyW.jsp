@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 03.11.2017
@@ -20,7 +22,6 @@
 
     </style>
 </head>
-<body style="padding: 20px;; min-width: 1200px">
 
 <%
     if(session.getAttribute("level")==null) response.sendRedirect("index.jsp");
@@ -34,12 +35,19 @@
     }
 %>
 
+<body style="padding: 20px;; min-width: 1200px">
+<%
+    ResultSet resultSet = DatabaseManager.getResources((Connection)session.getAttribute("connection"));
+
+
+%>
 <div style="width: 50%; margin: 0 auto; box-sizing: border-box; border: solid black 2px; padding: 20px">
     <div style="text-align: right">
         <form action="BackToWorker">
         <input type="submit" value="Назад" id="back">
         </form>
     </div><br>
+    <form action="OrderResource">
     <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
         <thead>
             <td style="width: 60%">Інгрідієнт</td>
@@ -47,19 +55,26 @@
             <td style="width: 25%; text-align: center">Ціна за одиницю<br>продукції</td>
         </thead>
         <%
-            for (int i = 0; i <12 ; i++) {
+            try {
+            while(resultSet.next()) {
+                if(resultSet.getBoolean("active")){
                 %>
                     <tr>
-                        <td>Name</td>
-                        <td style="text-align: center"><%="200"%><%="шт."%></td>
-                        <td style="text-align: center"><%="10"%> грн.</td>
+                        <td><%=resultSet.getString("name")%></td>
+                        <td style="text-align: center"><input type="number" name="<%=resultSet.getInt("id")%>"> <%=resultSet.getString("value")%></td>
+                        <td style="text-align: center"><%=resultSet.getDouble("price")%> грн.</td>
                     </tr>
                 <%
+                }
             }
-        %>
+                    } catch (Exception e) {
+                    }
+                %>
     </table><br>
-    <div style="text-align: right">Загальна ціна : <%="3000"%> грн.</div><br>
-    <div><input type="button" id="order" value="Замовити"></div>
+    <%--<div style="text-align: right">Загальна ціна : <%="3000"%> грн.</div><br>--%>
+
+    <div><input type="submit" id="order" value="Замовити"></div>
+    </form>
 </div>
 </body>
 </html>

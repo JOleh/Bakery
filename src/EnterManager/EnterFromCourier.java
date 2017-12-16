@@ -14,7 +14,7 @@ public class EnterFromCourier extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(request.getParameter("saleRegime")!=null){
+        if(request.getParameter("userRegime")!=null){
             response.sendRedirect("productList.jsp");
         }
 

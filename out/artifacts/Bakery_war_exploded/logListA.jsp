@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -48,15 +50,21 @@
             <td style="width: 16%; text-align: center">Date</td>
         </thead>
         <%
-            for (int i = 0; i <10 ; i++) {
+            try {
+                ResultSet resultSet = DatabaseManager.getLogs((Connection)session.getAttribute("connection"));
+                int i = 0;
+                while(resultSet.next()){
                 %>
                 <tr>
-                    <td><%="Oleh"%></td>
-                    <td><%="do smth"%></td>
-                    <td style="text-align: center"><%="21.10.2017 18:00:34"%></td>
+                    <td>id=<%=resultSet.getInt("log.id_user")%> <%=resultSet.getString("users.name")%> <%=resultSet.getString("users.surname")%> </td>
+                    <td><%=resultSet.getString("log.action")%></td>
+                    <td style="text-align: center"><%=resultSet.getTimestamp("log.data")%></td>
                 </tr>
                 <%
-            }
+                            i++;
+                        }
+                    } catch (Exception e) {
+                    }
         %>
     </table>
     </div>

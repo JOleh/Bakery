@@ -1,4 +1,6 @@
-<%--
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="Database.DatabaseManager" %>
+<%@ page import="java.sql.Connection" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 02.11.2017
@@ -41,10 +43,13 @@
     </div>
     <br>
     <%
-        for (int i = 0; i <4 ; i++) {
+        try {
+            ResultSet resultSet = DatabaseManager.getGlobalSupplyList((Connection)session.getAttribute("connection"));
+            int i = 0;
+            while(resultSet.next()){
     %>
     <div style="border: solid black 1px; box-sizing: border-box; padding: 10px">
-        Дата : <%="21.10.2017"%>
+        Дата : <%=resultSet.getTimestamp("date")%>
         <table style="border-collapse: collapse; width: 100%; margin: 0 auto">
             <thead>
             <td style="width: 60%">Інгрідієнт</td>
@@ -52,23 +57,49 @@
             <td style="width: 20%; text-align: center">Ціна</td>
             </thead>
             <%
-                for (int j = 0; j < 6; j++) {
+                ResultSet resultSet2 = DatabaseManager.getLocalSupplyList((Connection)session.getAttribute("connection"), resultSet.getInt("id"));
+                while(resultSet2.next()){
             %>
             <tr>
-                <td><%="Молоко"%></td>
-                <td style="text-align: center"><%="20"%><%="л."%></td>
-                <td style="text-align: center"><%="300"%> грн.</td>
+                <td><%=resultSet2.getString("name")%></td>
+                <td style="text-align: center"><%=resultSet2.getDouble("count")%><%=resultSet2.getString("value")%></td>
+                <td style="text-align: center"><%=resultSet2.getDouble("count")*resultSet2.getDouble("price")%> грн.</td>
             </tr>
             <%
                 }
+                resultSet2.close();
             %></table><br>
-        <div style="text-align: right">Загальна ціна : <%="2999"%>грн.</div>
+        <div style="text-align: right">Загальна ціна : <%=resultSet.getDouble("allprice")%>грн.</div>
         <br>
-        <input type="button" value="Підтвердити" id="confirm"> <input type="button" value="Відмовити" id="refuse">
-        (Якщо запит новий)<br>
+        <%
+            if(resultSet.getObject("isconfirmed")!=null){
+                if(resultSet.getBoolean("isconfirmed")){
+                %>
+            Підтверджено
+        <%
+            }else {
+                %>
+            Відхилено
+        <%
+            }
+            }else{
+
+            %>
+        <form action="ConfirmRefuseResourceOrder">
+            <input type="submit" value="Підтвердити" name="confirm<%=resultSet.getInt("id")%>"> <input type="submit" value="Відмовити" name="refuse<%=resultSet.getInt("id")%>">
+        </form>
+             <br>
+        <%
+            }
+        %>
+
     </div>
     <br>
     <%
+                i++;
+            }
+            resultSet.close();
+        } catch (Exception e) {
         }
     %>
 </div>
