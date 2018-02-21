@@ -27,6 +27,6 @@ public class DeleteResource extends HttpServlet {
             Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e")+1, name.length()));
             DatabaseManager.removeResource(connection, id);
         }
-        response.sendRedirect("resourceStartPageForWorker.jsp");
+        response.sendRedirect("resourcesStartPageForWorker.jsp");
     }
 }

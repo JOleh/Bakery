@@ -1,0 +1,39 @@
+td{
+    border: solid black 1px;
+    text-align: left;
+}
+thead{
+    border: 2px;
+    font-weight: bold;
+}
+body{
+    padding: 20px;
+    min-width: 1200px;
+}
+.maindiv{
+    width: 80%;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.exitdiv{
+    text-align: right;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.usertd, .actiontd, .datetd, .datetd2{
+    text-align: center;
+}
+.usertd{
+    width: 15%;
+}
+.actiontd{
+    width: 69%;
+}
+.datetd{
+    width: 16%;
+}

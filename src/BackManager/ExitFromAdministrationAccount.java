@@ -37,7 +37,8 @@ public class ExitFromAdministrationAccount extends HttpServlet {
                     session.removeAttribute("email");
                     session.removeAttribute("password");
                     session.removeAttribute("id");
-                    DatabaseManager.setProjectInfo((Connection)session.getAttribute("connection"), request.getParameter("companyTitle"),
+                    DatabaseManager.setProjectInfo((Connection)session
+                                    .getAttribute("connection"), request.getParameter("companyTitle"),
                             request.getParameter("companyPhone"),request.getParameter("companyEmail"));
                     response.sendRedirect("index.jsp");break;
                 default: response.sendRedirect("index.jsp");

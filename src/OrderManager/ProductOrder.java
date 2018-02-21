@@ -14,23 +14,15 @@ public class ProductOrder extends HttpServlet{
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
         if(request.getParameter("history")!=null){
             response.sendRedirect("orderingHistory.jsp");
         }else {
-
-            System.out.println("in productOrder");
             Enumeration<String> nam = request.getParameterNames();
             HttpSession session = request.getSession();
             Map<Integer, Integer> map = new HashMap<>();
             while (nam.hasMoreElements()) {
                 String str = nam.nextElement();
-                System.out.println("po " + str);
                 if (str.length() < 4 && !str.equals("") && !request.getParameter(str).equals("")) {
-                    //session.setAttribute(str, Integer.parseInt(request.getParameter(str)));
-                    //session.setAttribute();
-                    //int id = Integer.parseInt(str, 10);
-                    //System.out.println(id);
                     map.put(Integer.parseInt(str), Integer.parseInt(request.getParameter(str)));
                 }
 

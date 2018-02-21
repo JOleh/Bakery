@@ -1,0 +1,67 @@
+body{
+    padding: 20px;
+    min-width: 1200px;
+}
+.maindiv{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid black 2px;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.OKbutton{
+    float: left ;
+    width: 70%;
+}
+.backbutton{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+.ingredientdiv{
+    padding-left: 5%;
+}
+.ingredientdiv > td > input{
+    width: 50px;
+}
+textarea{
+    width: 100%;
+}
+.namediv{
+    float: left;
+    width: 50%;
+}
+.pricediv{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.pricediv > input{
+    width: 50px;
+}
+iframe{
+    display: none;
+}
+.load{
+    display: none;
+}
+.loaddiv{
+    position:absolute;
+    overflow: hidden;
+    display:block;
+    height:0;
+    width:0;
+}
+.loadfileimg > input{
+    width: 280px;
+    height: 300px;
+    border: 0;
+}
+.imgdiv{
+    text-align: center;
+}

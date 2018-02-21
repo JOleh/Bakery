@@ -31,7 +31,7 @@ public class OrderResource extends HttpServlet {
         while(names.hasMoreElements()){
             String str = names.nextElement();
             if(!request.getParameter(str).equals("")){
-                map.put(Integer.parseInt(str), Double.parseDouble(request.getParameter(str)));//System.out.println(names.nextElement());
+                map.put(Integer.parseInt(str), Double.parseDouble(request.getParameter(str)));
             }
         }
         double allprice = 0;

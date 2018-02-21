@@ -1,0 +1,47 @@
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+
+.info{
+    width:80%;
+    float: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+thead{
+    border: 2px;
+    font-weight: bold;
+}
+.navigation > form > input{
+    width: 90%;
+    text-align: center;
+}
+.thingredienttd{
+    width: 60%;
+}
+.thnumbertd, .thpricetd{
+    width: 15%;
+    text-align: center;
+}
+.nametd, .pricetd, .numbertd{
+    border:solid black 1px;
+}
+.pricetd, .numbertd{
+    text-align: center;
+}
+.pricetd > input{
+    width: 50%;
+}
+input#count{
+    width: 65%;
+}
+input#show{
+    width: 30%;
+}

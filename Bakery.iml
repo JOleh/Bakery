@@ -22,5 +22,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 9.0.0.M26" level="application_server_libraries" />
     <orderEntry type="library" name="postgresql-42.1.4" level="project" />
     <orderEntry type="library" name="commons-fileupload-1.3.3-javadoc" level="project" />
+    <orderEntry type="library" name="jquery-3.3.1.slim" level="application" />
+    <orderEntry type="library" name="maskedinput-DefinitelyTyped" level="application" />
   </component>
 </module>

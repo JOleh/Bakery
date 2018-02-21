@@ -1,6 +1,5 @@
 package OrderManager;
 
-import Database.Database;
 import Database.DatabaseManager;
 
 import javax.servlet.ServletException;
@@ -28,7 +27,7 @@ public class ConfirmRefuseResourceOrder extends HttpServlet {
             if(name.startsWith("confirm")){
                 Integer id = Integer.parseInt(name.substring(name.lastIndexOf("m")+1, name.length()));
                 DatabaseManager.setOrderResourcesState(connection, id , true);
-                DatabaseManager.setBudget(connection, DatabaseManager.getResourceOrderPriceByID(connection,id));
+                DatabaseManager.setBudget(connection, -DatabaseManager.getResourceOrderPriceByID(connection,id));
                 DatabaseManager.setResourcesAfterManagerConfirming(connection, id);
                 response.sendRedirect("supplyListAM.jsp");
             }else if (name.startsWith("refuse")){

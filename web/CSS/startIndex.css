@@ -1,0 +1,21 @@
+
+.name{
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+.price{
+    text-align: right;
+    float: left;
+
+    width: 50%;
+}
+td{
+    border: 1px solid black;
+    width: 2000px;
+    height:auto;
+    box-sizing: border-box;
+    text-align: center;
+
+    padding: 20px 10px 10px;
+}

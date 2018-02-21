@@ -1,0 +1,41 @@
+td{
+    border: solid black 1px;
+}
+thead{
+    border: solid black 2px;
+    font-weight: bold;
+}
+.maindiv{
+    width: 50%;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+.tablediv{
+    border: solid black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.ingredienttd{
+    width: 60%;
+}
+.numbertd{
+    width: 20%;
+    text-align: center;
+}
+.pricetd{
+    width: 20%;
+    text-align: center;
+}
+.tablediv > table > tr > td{
+    text-align: center;
+}
+.allpricediv{
+    text-align: right;
+}

@@ -1,0 +1,50 @@
+td{
+    border: solid black 1px;
+}
+thead{
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center ;
+    margin: 0 auto;
+}
+.buttondiv{
+    width: 100%;
+}
+.ordersubmit{
+    text-align: left;
+    float:left;
+    width: 50%
+}
+.backsubmit{
+    text-align: right;
+    float: left;
+    width: 50%
+}
+.maindiv{
+    width: 50%;
+    border: solid black 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+}
+.titlediv{
+    font-size: 64px;
+    text-align: center ;
+    border-bottom: solid black 1px;
+}
+.nametd{
+    width: 60%;
+}
+.valuetd, .pricetd{
+    width: 20%;
+}
+.allprice{
+    text-align: right;
+}
+.buttonform{
+    float: left;
+    width: 50%;
+}

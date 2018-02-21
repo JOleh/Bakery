@@ -1,0 +1,21 @@
+body{
+    padding: 40px;
+    min-width: 1200px
+}
+.maindiv{
+    width: 40%;
+    border: solid 2px black;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.exitdiv{
+    text-align: right;
+}
+.resourcediv{
+    width: 100%;
+    text-align: center;
+}
+.resourcediv > input{
+    width: 60%;
+}

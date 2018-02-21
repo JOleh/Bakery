@@ -238,4 +238,67 @@
         <servlet-name>SaveNewResource</servlet-name>
         <url-pattern>/SaveNewResource</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteResource</servlet-name>
+        <servlet-class>DeleteManager.DeleteResource</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteResource</servlet-name>
+        <url-pattern>/DeleteResource</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteProduct</servlet-name>
+        <servlet-class>DeleteManager.DeleteProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteProduct</servlet-name>
+        <url-pattern>/DeleteProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RefuseProductOrder</servlet-name>
+        <servlet-class>OrderManager.RefuseProductOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RefuseProductOrder</servlet-name>
+        <url-pattern>/RefuseProductOrder</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DoProductOrder</servlet-name>
+        <servlet-class>OrderManager.DoProductOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DoProductOrder</servlet-name>
+        <url-pattern>/DoProductOrder</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AjaxChecker</servlet-name>
+        <servlet-class>Accounts.AjaxChecker</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjaxChecker</servlet-name>
+        <url-pattern>/AjaxChecker</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckEmail</servlet-name>
+        <servlet-class>Accounts.CheckEmail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckEmail</servlet-name>
+        <url-pattern>/CheckEmail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckPhone</servlet-name>
+        <servlet-class>Accounts.CheckPhone</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckPhone</servlet-name>
+        <url-pattern>/CheckPhone</url-pattern>
+    </servlet-mapping>
 </web-app>

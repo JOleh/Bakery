@@ -1,0 +1,27 @@
+td{
+    border:solid black 1px;
+    text-align: center;
+}
+thead{
+    font-weight: bold;
+    border: black solid 2px;
+}
+.maindiv{
+    width: 50%;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.ingredienttd{
+    width: 65%;
+}
+.numbertd{
+    width: 35%;
+}

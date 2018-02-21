@@ -1,0 +1,45 @@
+td{
+    border: solid black 1px;
+}
+.maindiv{
+    width: 50%;
+    box-sizing: border-box;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+.refusediv, .dodiv{
+    float:left;
+    text-align: right;
+}
+.allprice{
+    text-align: right;
+}
+.nametd{
+    width: 40%;
+}
+.counttd{
+    width: 25%;
+}
+.pricetd{
+    width: 35%;
+}
+.consumerdiv, .datediv{
+    float:left;
+    width: 50%;
+}
+.datediv{
+    text-align: right;
+}
+.tablediv{
+    border: solid black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+}

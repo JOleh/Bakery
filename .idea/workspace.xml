@@ -6,41 +6,74 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="added some functionality">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_3_javadoc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DeleteManager/DeleteResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EnterManager/OpenSingleProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/EditOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/OrderResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SaveManager/GetImage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SaveManager/SaveNewResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/addResourcePage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/upload.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Database.accdb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6/_metadata_/metadata.values.at" />
+    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata.keystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata.keystream.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata.values.at" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata_i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata.keystream" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata.keystream.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata.values.at" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata_i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/539bd3f5-672c-49da-9b1e-4558813a7252/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/ce9737f0-38db-44c6-b468-37495077e346/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Accounts/AjaxChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Accounts/CheckEmail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Accounts/CheckPhone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/DoProductOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OrderManager/RefuseProductOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/BODY.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/EXIT.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/LogListAStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/addResourcePageStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/basketStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/budgetStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/orderingAMStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/orderingHistoryStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/productListAStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/registrationStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/resourceAMStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/singleProductAMStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/singleProductForConsumerStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/startConsumer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/startManager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/startWorker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/supplyListAMStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/supplyListWStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/CSS/supplyWStylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/enterScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/plugins/jquery.maskedinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/registrationScript.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/productListStylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/startPageForAdmin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/startPageForCourier.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/startPageForManager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/startPageForWorker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/startPageStyleSheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Database/Database.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Accounts/Checker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Database/Database.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Database/Database.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/CSS/productListStylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/CSS/startPageForWorker.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/DeleteUser.class" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/DeleteUser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/Registration.class" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/Registration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/ExitFromAdministrationAccount.class" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/ExitFromAdministrationAccount.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Database/DatabaseManager.class" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Database/DatabaseManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromCourier.class" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromCourier.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Bakery/Accounts/DeleteUser.class" afterPath="$PROJECT_DIR$/out/production/Bakery/Accounts/DeleteUser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Bakery/Accounts/Registration.class" afterPath="$PROJECT_DIR$/out/production/Bakery/Accounts/Registration.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/ExitFromAdministrationAccount.class" afterPath="$PROJECT_DIR$/out/production/Bakery/BackManager/ExitFromAdministrationAccount.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Bakery/Database/DatabaseManager.class" afterPath="$PROJECT_DIR$/out/production/Bakery/Database/DatabaseManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromCourier.class" afterPath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromCourier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bakery.iml" afterPath="$PROJECT_DIR$/Bakery.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/web.xml" />
@@ -54,6 +87,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListA.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListA.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListStartPageForManager.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListStartPageForManager.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/registrationPage.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/registrationPage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesAM.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesAM.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesStartPageForWorker.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesStartPageForWorker.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/singleProductAM.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/singleProductAM.jsp" />
@@ -62,9 +96,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyListW.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyListW.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyW.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyW.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/workerListStartPageForAdmin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/workerListStartPageForAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Accounts/Checker.java" afterPath="$PROJECT_DIR$/src/Accounts/Checker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Accounts/DeleteUser.java" afterPath="$PROJECT_DIR$/src/Accounts/DeleteUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Accounts/Registration.java" afterPath="$PROJECT_DIR$/src/Accounts/Registration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java" afterPath="$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/Database/DatabaseManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java" afterPath="$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java" afterPath="$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeleteManager/DeleteResource.java" afterPath="$PROJECT_DIR$/src/DeleteManager/DeleteResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java" afterPath="$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" afterPath="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java" afterPath="$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" afterPath="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/EditOrder.java" afterPath="$PROJECT_DIR$/src/OrderManager/EditOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/OrderResource.java" afterPath="$PROJECT_DIR$/src/OrderManager/OrderResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" afterPath="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" afterPath="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" afterPath="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SaveManager/GetImage.java" afterPath="$PROJECT_DIR$/src/SaveManager/GetImage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" afterPath="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/addResourcePage.jsp" afterPath="$PROJECT_DIR$/web/addResourcePage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/basket.jsp" afterPath="$PROJECT_DIR$/web/basket.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/budget.jsp" afterPath="$PROJECT_DIR$/web/budget.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
@@ -75,6 +126,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/productList.jsp" afterPath="$PROJECT_DIR$/web/productList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/productListA.jsp" afterPath="$PROJECT_DIR$/web/productListA.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/productListStartPageForManager.jsp" afterPath="$PROJECT_DIR$/web/productListStartPageForManager.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/registrationPage.jsp" afterPath="$PROJECT_DIR$/web/registrationPage.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resourcesAM.jsp" afterPath="$PROJECT_DIR$/web/resourcesAM.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp" afterPath="$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/singleProductAM.jsp" afterPath="$PROJECT_DIR$/web/singleProductAM.jsp" />
@@ -82,7 +134,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/supplyListAM.jsp" afterPath="$PROJECT_DIR$/web/supplyListAM.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/supplyListW.jsp" afterPath="$PROJECT_DIR$/web/supplyListW.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/supplyW.jsp" afterPath="$PROJECT_DIR$/web/supplyW.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/upload.js" afterPath="$PROJECT_DIR$/web/upload.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp" afterPath="$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startPageForAdmin.css" afterPath="$PROJECT_DIR$/web/CSS/startAdmin.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startPageForCourier.css" afterPath="$PROJECT_DIR$/web/CSS/startCourier.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startPageForManager.css" afterPath="$PROJECT_DIR$/web/CSS/startPage.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startPageStyleSheet.css" afterPath="$PROJECT_DIR$/web/CSS/startIndex.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,116 +162,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="resourcesStartPageForWorker.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp">
+      <file leaf-file-name="singleProductAM.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/singleProductAM.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="62" column="56" lean-forward="false" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
+            <state relative-caret-position="306">
+              <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supplyW.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/supplyW.jsp">
+      <file leaf-file-name="basket.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/basket.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productListStartPageForManager.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/productListStartPageForManager.jsp">
+      <file leaf-file-name="SaveOrderProduction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="66" column="77" lean-forward="true" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Database/DatabaseManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="543" column="34" lean-forward="true" selection-start-line="543" selection-start-column="34" selection-end-line="543" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <marker date="1513429715421" expanded="true" signature="308:375" ph="SELECT * FRO... users" />
-                <marker date="1513429715421" expanded="true" signature="866:887" ph="SELECT name product" />
-                <marker date="1513429715421" expanded="true" signature="1253:1310" ph="SELECT name,... product" />
-                <marker date="1513429715421" expanded="true" signature="1664:1726" ph="SELECT * FRO... project_info" />
-                <marker date="1513429715421" expanded="true" signature="2126:2175" ph="SELECT phone... users" />
-                <marker date="1513429715421" expanded="true" signature="2768:2805" ph="SELECT email... users" />
-                <marker date="1513429715421" expanded="true" signature="3404:3523" ph="INSERT INTO users... " />
-                <marker date="1513429715421" expanded="true" signature="4063:4125" ph="SELECT budge... projectinfo" />
-                <marker date="1513429715421" expanded="true" signature="4407:4498" ph="INSERT INTO projectinfo... " />
-                <marker date="1513429715421" expanded="true" signature="5065:5084" ph="SELECT * FRO... users" />
-                <marker date="1513429715421" expanded="true" signature="5406:5434" ph="DELETE FROM " />
-                <marker date="1513429715421" expanded="true" signature="5787:5823" ph="SELECT * FRO... users" />
-                <marker date="1513429715421" expanded="true" signature="6222:6744" ph="SELECT * FRO... order_production" />
-                <marker date="1513429715421" expanded="true" signature="7092:7210" ph="SELECT log.i... log" />
-                <marker date="1513429715421" expanded="true" signature="7559:7634" ph="SELECT budge... projectinfo" />
-                <marker date="1513429715421" expanded="true" signature="7985:8007" ph="SELECT * FRO... resource" />
-                <marker date="1513429715421" expanded="true" signature="8398:8462" ph="SELECT * FRO... order_resources" />
-                <marker date="1513429715421" expanded="true" signature="8480:8643" ph="SELECT * FRO... order_resources" />
-                <marker date="1513429715421" expanded="true" signature="9015:9385" ph="SELECT resou... resource_for_order_resources" />
-                <marker date="1513429715421" expanded="true" signature="9040:9385" ph="SELECT resou... resource_for_order_resources" />
-                <marker date="1513429715421" expanded="true" signature="9464:9557" ph="SELECT * FRO... " />
-                <marker date="1513429715421" expanded="true" signature="9464:9699" ph="SELECT resou... resource_for_order_resources" />
-                <marker date="1513429715421" expanded="true" signature="9464:9702" ph="SELECT * FRO... order_resources" />
-                <marker date="1513429715421" expanded="true" signature="10125:10445" ph="SELECT resou... product" />
-                <marker date="1513429715421" expanded="true" signature="10150:10445" ph="SELECT resou... product" />
-                <marker date="1513429715421" expanded="true" signature="10858:10898" ph="SELECT * FRO... product" />
-                <marker date="1513429715421" expanded="true" signature="11312:11366" ph="SELECT * FRO... product" />
-                <marker date="1513429715421" expanded="true" signature="11780:11936" ph="SELECT * FRO... ingredient" />
-                <marker date="1513429715421" expanded="true" signature="11780:11976" ph="SELECT * FRO... ingredient" />
-                <marker date="1513429715421" expanded="true" signature="12576:12649" ph="INSERT INTO order_production... " />
-                <marker date="1513429715421" expanded="true" signature="12923:12967" ph="SELECT id FR... order_production" />
-                <marker date="1513429715421" expanded="true" signature="13261:13345" ph="INSERT INTO resource_for_order_production... " />
-                <marker date="1513429715421" expanded="true" signature="13849:13912" ph="SELECT * FRO... order_production" />
-                <marker date="1513429715421" expanded="true" signature="14266:14354" ph="DELETE FROM " />
-                <marker date="1513429715421" expanded="true" signature="14482:14521" ph="DELETE FROM " />
-                <marker date="1513429715421" expanded="true" signature="14886:15403" ph="SELECT users... users" />
-                <marker date="1513429715421" expanded="true" signature="15739:15811" ph="UPDATE order... " />
-                <marker date="1513429715421" expanded="true" signature="16153:16233" ph="UPDATE order... " />
-                <marker date="1513429715421" expanded="true" signature="16610:16672" ph="SELECT budge... projectinfo" />
-                <marker date="1513429715421" expanded="true" signature="17104:17135" ph="UPDATE proje... " />
-                <marker date="1513429715421" expanded="true" signature="17524:17569" ph="SELECT price... order_production" />
-                <marker date="1513429715421" expanded="true" signature="18079:18134" ph="INSERT INTO order_resources... " />
-                <marker date="1513429715421" expanded="true" signature="18316:18359" ph="SELECT id FR... order_resources" />
-                <marker date="1513429715421" expanded="true" signature="18676:18761" ph="INSERT INTO resource_for_order_resources... " />
-                <marker date="1513429715421" expanded="true" signature="19235:19286" ph="UPDATE order... " />
-                <marker date="1513429715421" expanded="true" signature="19676:19713" ph="SELECT price... resource" />
-                <marker date="1513429715421" expanded="true" signature="20164:20211" ph="SELECT allpr... order_resources" />
-                <marker date="1513429715421" expanded="true" signature="20654:20713" ph="SELECT * FRO... resource_for_order_resources" />
-                <marker date="1513429715421" expanded="true" signature="21288:21325" ph="SELECT count... resource" />
-                <marker date="1513429715421" expanded="true" signature="21768:21806" ph="UPDATE resou... " />
-                <marker date="1513429715421" expanded="true" signature="22248:22310" ph="INSERT INTO resource... " />
-                <marker date="1513429715421" expanded="true" signature="22759:22802" ph="UPDATE resou... " />
-                <marker date="1513429715421" expanded="true" signature="23116:23158" ph="UPDATE produ... " />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,12 +209,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>style</find>
+      <find>action</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -242,62 +234,74 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BackManager/BackToConsumer.java" />
-        <option value="$PROJECT_DIR$/src/BackManager/BackToManager.java" />
-        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromWorker.java" />
-        <option value="$PROJECT_DIR$/src/BackManager/BackToWorker.java" />
-        <option value="$PROJECT_DIR$/src/BackManager/BackToAdmin.java" />
-        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java" />
-        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromManager.java" />
-        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromAdmin.java" />
-        <option value="$PROJECT_DIR$/src/BackManager/ExitFromConsumerAccount.java" />
-        <option value="$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java" />
-        <option value="$PROJECT_DIR$/src/Accounts/DeleteUser.java" />
-        <option value="/PostgreSQL Fragment (DatabaseManager.java:1262).sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/068f9a66-680d-44ca-b294-42577bca0aa6/console_2.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/068f9a66-680d-44ca-b294-42577bca0aa6/console.sql" />
-        <option value="$PROJECT_DIR$/web/logListA.jsp" />
-        <option value="$PROJECT_DIR$/web/resourcesAM.jsp" />
-        <option value="$PROJECT_DIR$/src/EnterManager/OpenSingleProduct.java" />
-        <option value="$PROJECT_DIR$/web/budget.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" />
+        <option value="$PROJECT_DIR$/web/CSS/singleProductForConsumerStylesheet.css" />
         <option value="$PROJECT_DIR$/web/singleProductForConsumer.jsp" />
-        <option value="$PROJECT_DIR$/web/productListA.jsp" />
-        <option value="$PROJECT_DIR$/src/SaveManager/GetImage.java" />
-        <option value="$PROJECT_DIR$/web/upload.js" />
-        <option value="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" />
-        <option value="$PROJECT_DIR$/web/singleProductAM.jsp" />
-        <option value="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" />
-        <option value="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" />
-        <option value="$PROJECT_DIR$/src/OrderManager/EditOrder.java" />
-        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java" />
-        <option value="$PROJECT_DIR$/web/productList.jsp" />
-        <option value="$PROJECT_DIR$/web/basket.jsp" />
-        <option value="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" />
-        <option value="$PROJECT_DIR$/web/orderingStartPageForCourier.jsp" />
-        <option value="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" />
-        <option value="$PROJECT_DIR$/web/orderingAM.jsp" />
-        <option value="$PROJECT_DIR$/web/orderingHistory.jsp" />
-        <option value="$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp" />
-        <option value="$PROJECT_DIR$/web/supplyListAM.jsp" />
-        <option value="$PROJECT_DIR$/src/OrderManager/OrderResource.java" />
-        <option value="$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java" />
-        <option value="$PROJECT_DIR$/web/supplyListW.jsp" />
+        <option value="$PROJECT_DIR$/web/logListA.jsp" />
         <option value="$PROJECT_DIR$/web/addResourcePage.jsp" />
-        <option value="$PROJECT_DIR$/src/SaveManager/SaveNewResource.java" />
-        <option value="$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp" />
-        <option value="$PROJECT_DIR$/src/DeleteManager/DeleteResource.java" />
+        <option value="$PROJECT_DIR$/web/CSS/orderingAMStylesheet.css" />
+        <option value="$PROJECT_DIR$/web/orderingAM.jsp" />
+        <option value="$PROJECT_DIR$/web/CSS/productListAStylesheet.css" />
+        <option value="$PROJECT_DIR$/web/productListA.jsp" />
+        <option value="$PROJECT_DIR$/web/orderingHistory.jsp" />
+        <option value="$PROJECT_DIR$/src/Accounts/DeleteUser.java" />
         <option value="$PROJECT_DIR$/web/supplyW.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/productListStartPageForManager.jsp" />
-        <option value="$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java" />
+        <option value="$PROJECT_DIR$/web/supplyListW.jsp" />
+        <option value="$PROJECT_DIR$/web/CSS/resourceAMStylesheet.css" />
+        <option value="$PROJECT_DIR$/web/resourcesAM.jsp" />
+        <option value="$PROJECT_DIR$/src/Accounts/CheckAccountManager.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/enterScript.js" />
+        <option value="$PROJECT_DIR$/src/Accounts/CheckEmail.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/CheckPhone.java" />
+        <option value="$PROJECT_DIR$/web/CSS/registrationStylesheet.css" />
         <option value="$PROJECT_DIR$/src/Database/DatabaseManager.java" />
+        <option value="$PROJECT_DIR$/web/registrationPage.jsp" />
+        <option value="$PROJECT_DIR$/web/CSS/basketStylesheet.css" />
+        <option value="$PROJECT_DIR$/web/supplyListAM.jsp" />
+        <option value="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/Registration.java" />
+        <option value="$PROJECT_DIR$/src/Accounts/Checker.java" />
+        <option value="$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java" />
+        <option value="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" />
+        <option value="$PROJECT_DIR$/src/OrderManager/OrderResource.java" />
+        <option value="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" />
+        <option value="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" />
+        <option value="$PROJECT_DIR$/src/OrderManager/EditOrder.java" />
+        <option value="$PROJECT_DIR$/web/deleteProductScript.js" />
+        <option value="$PROJECT_DIR$/web/productListStartPageForManager.jsp" />
+        <option value="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" />
+        <option value="$PROJECT_DIR$/web/productList.jsp" />
+        <option value="$PROJECT_DIR$/web/CSS/startConsumer.css" />
+        <option value="$PROJECT_DIR$/web/CSS/budgetStylesheet.css" />
+        <option value="$PROJECT_DIR$/web/CSS/startWorker.css" />
+        <option value="$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp" />
+        <option value="$PROJECT_DIR$/web/registrationScript.js" />
+        <option value="$PROJECT_DIR$/web/CSS/startManager.css" />
+        <option value="$PROJECT_DIR$/web/CSS/startAdmin.css" />
+        <option value="$PROJECT_DIR$/src/Accounts/AjaxChecker.java" />
+        <option value="$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java" />
+        <option value="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" />
+        <option value="$PROJECT_DIR$/src/SaveManager/GetImage.java" />
+        <option value="$PROJECT_DIR$/web/singleProductAM.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/basket.jsp" />
       </list>
     </option>
   </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -316,8 +320,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-4" />
+    <option name="x" value="17" />
+    <option name="y" value="-22" />
     <option name="width" value="1386" />
     <option name="height" value="785" />
   </component>
@@ -358,10 +362,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,48 +381,18 @@
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
               <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BackManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DeleteManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="OrderManager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
               <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SaveManager" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
               <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
@@ -427,22 +400,19 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
@@ -452,6 +422,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\BigJAVA\BakeryProject\web" />
       <recent name="D:\BigJAVA\BakeryProject\web\WEB-INF\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BigJAVA\BakeryProject\web\plugins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -657,34 +630,54 @@
       <workItem from="1512818392339" duration="48630000" />
       <workItem from="1513070840275" duration="4396000" />
       <workItem from="1513377976237" duration="8166000" />
-      <workItem from="1513422214965" duration="5517000" />
+      <workItem from="1513422214965" duration="28262000" />
+      <workItem from="1513588040880" duration="1008000" />
+      <workItem from="1513903100028" duration="5908000" />
+      <workItem from="1513947300999" duration="777000" />
+      <workItem from="1514047343131" duration="514000" />
+      <workItem from="1518466366607" duration="1709000" />
+      <workItem from="1518647192384" duration="878000" />
+      <workItem from="1518703168813" duration="6285000" />
+      <workItem from="1518780142821" duration="30803000" />
+      <workItem from="1518970499959" duration="698000" />
+      <workItem from="1519038346249" duration="590000" />
+      <workItem from="1519158095603" duration="14173000" />
+      <workItem from="1519206049162" duration="18554000" />
+      <workItem from="1519233397773" duration="9733000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1513429996448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513429996448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251347000" />
+    <option name="totallyTimeSpent" value="365722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31423897" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31423897" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31423897" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35679215" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.65393794" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21255673" sideWeight="0.34606206" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.7731707" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24583964" sideWeight="0.22682928" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -698,7 +691,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,146 +702,373 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added some functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some functionality" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="updated and cleaned" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated and cleaned" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+    <entry file="file://$PROJECT_DIR$/web/deleteProductScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/startConsumer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/budget.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/budgetStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/registrationScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" lean-forward="true" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/startManager.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bakery.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/startWorker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/productListStartPageForManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/startAdmin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/AjaxChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/CheckEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/CheckPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/DeleteUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Accounts/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackManager/BackToAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackManager/BackToConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackManager/BackToManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BackManager/BackToWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="42" column="60" lean-forward="false" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+        <state relative-caret-position="527">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/CSS/productListStylesheet.css">
+    <entry file="file://$PROJECT_DIR$/src/BackManager/ExitFromConsumerAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-851">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/068f9a66-680d-44ca-b294-42577bca0aa6/storage.xml">
+    <entry file="file://$PROJECT_DIR$/src/Database/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/068f9a66-680d-44ca-b294-42577bca0aa6/console_2.sql">
+    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/068f9a66-680d-44ca-b294-42577bca0aa6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/539bd3f5-672c-49da-9b1e-4558813a7252/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="72" column="132" lean-forward="false" selection-start-line="72" selection-start-column="132" selection-end-line="72" selection-end-column="132" />
+        <state relative-caret-position="221">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnterManager/OpenSingleProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="-49">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productListA.jsp">
+    <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="391">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resourcesAM.jsp">
+    <entry file="file://$PROJECT_DIR$/src/Database/DatabaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="97" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="97" />
+        <state relative-caret-position="-8894">
+          <caret line="93" column="52" lean-forward="true" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+          <folding>
+            <marker date="1519220980145" expanded="true" signature="329:396" ph="SELECT * FRO... users" />
+            <marker date="1519220980145" expanded="true" signature="329:445" ph="SELECT * FRO... users" />
+            <marker date="1519220980145" expanded="true" signature="937:958" ph="SELECT name product" />
+            <marker date="1519220980145" expanded="true" signature="1345:1402" ph="SELECT name,... product" />
+            <marker date="1519220980145" expanded="true" signature="1777:1839" ph="SELECT * FRO... project_info" />
+            <marker date="1519220980145" expanded="true" signature="2212:2261" ph="SELECT phone... users" />
+            <marker date="1519220980145" expanded="true" signature="2745:2782" ph="SELECT email... users" />
+            <marker date="1519220980145" expanded="true" signature="3352:3471" ph="INSERT INTO users... " />
+            <marker date="1519220980145" expanded="true" signature="4065:4127" ph="SELECT budge... projectinfo" />
+            <marker date="1519220980145" expanded="true" signature="4430:4553" ph="INSERT INTO projectinfo... " />
+            <marker date="1519220980145" expanded="true" signature="5120:5139" ph="SELECT * FRO... users" />
+            <marker date="1519220980145" expanded="true" signature="5461:5489" ph="DELETE FROM " />
+            <marker date="1519220980145" expanded="true" signature="5863:5899" ph="SELECT * FRO... users" />
+            <marker date="1519220980145" expanded="true" signature="6298:6902" ph="SELECT * FRO... order_production" />
+            <marker date="1519220980145" expanded="true" signature="7271:7455" ph="SELECT log.i... log" />
+            <marker date="1519220980145" expanded="true" signature="7823:7898" ph="SELECT budge... projectinfo" />
+            <marker date="1519220980145" expanded="true" signature="8249:8271" ph="SELECT * FRO... resource" />
+            <marker date="1519220980145" expanded="true" signature="8650:8714" ph="SELECT * FRO... order_resources" />
+            <marker date="1519220980145" expanded="true" signature="9087:9482" ph="SELECT resou... resource_for_order_resources" />
+            <marker date="1519220980145" expanded="true" signature="9112:9482" ph="SELECT resou... resource_for_order_resources" />
+            <marker date="1519220980145" expanded="true" signature="9908:10253" ph="SELECT resou... product" />
+            <marker date="1519220980145" expanded="true" signature="9933:10253" ph="SELECT resou... product" />
+            <marker date="1519220980145" expanded="true" signature="10666:10706" ph="SELECT * FRO... product" />
+            <marker date="1519220980145" expanded="true" signature="11141:11195" ph="SELECT * FRO... product" />
+            <marker date="1519220980145" expanded="true" signature="11630:11852" ph="SELECT * FRO... ingredient" />
+            <marker date="1519220980145" expanded="true" signature="11630:11892" ph="SELECT * FRO... ingredient" />
+            <marker date="1519220980145" expanded="true" signature="12414:12487" ph="INSERT INTO order_production... " />
+            <marker date="1519220980145" expanded="true" signature="12761:12805" ph="SELECT id FR... order_production" />
+            <marker date="1519220980145" expanded="true" signature="13122:13240" ph="INSERT INTO resource_for_order_production... " />
+            <marker date="1519220980145" expanded="true" signature="13765:13861" ph="SELECT * FRO... order_production" />
+            <marker date="1519220980145" expanded="true" signature="13765:13870" ph="SELECT * FRO... order_production" />
+            <marker date="1519220980145" expanded="true" signature="13765:13880" ph="SELECT * FRO... order_production" />
+            <marker date="1519220980145" expanded="true" signature="14255:14376" ph="DELETE FROM " />
+            <marker date="1519220980145" expanded="true" signature="14504:14543" ph="DELETE FROM " />
+            <marker date="1519220980145" expanded="true" signature="14929:15497" ph="SELECT users... users" />
+            <marker date="1519220980145" expanded="true" signature="15854:15926" ph="UPDATE order... " />
+            <marker date="1519220980145" expanded="true" signature="16289:16402" ph="UPDATE order... " />
+            <marker date="1519220980145" expanded="true" signature="16800:16895" ph="SELECT budge... projectinfo" />
+            <marker date="1519220980145" expanded="true" signature="17327:17358" ph="UPDATE proje... " />
+            <marker date="1519220980145" expanded="true" signature="17768:17813" ph="SELECT price... order_production" />
+            <marker date="1519220980145" expanded="true" signature="18386:18441" ph="INSERT INTO order_resources... " />
+            <marker date="1519220980145" expanded="true" signature="18623:18666" ph="SELECT id FR... order_resources" />
+            <marker date="1519220980145" expanded="true" signature="19006:19128" ph="INSERT INTO resource_for_order_resources... " />
+            <marker date="1519220980145" expanded="true" signature="19623:19674" ph="UPDATE order... " />
+            <marker date="1519220980145" expanded="true" signature="20085:20122" ph="SELECT price... resource" />
+            <marker date="1519220980145" expanded="true" signature="20594:20641" ph="SELECT allpr... order_resources" />
+            <marker date="1519220980145" expanded="true" signature="21105:21164" ph="SELECT * FRO... resource_for_order_resources" />
+            <marker date="1519220980145" expanded="true" signature="21734:21771" ph="SELECT count... resource" />
+            <marker date="1519220980145" expanded="true" signature="22235:22273" ph="UPDATE resou... " />
+            <marker date="1519220980145" expanded="true" signature="22736:22798" ph="INSERT INTO resource... " />
+            <marker date="1519220980145" expanded="true" signature="23268:23311" ph="UPDATE resou... " />
+            <marker date="1519220980145" expanded="true" signature="23646:23688" ph="UPDATE produ... " />
+            <marker date="1519220980145" expanded="true" signature="24019:24059" ph="UPDATE users... " />
+            <marker date="1519220980145" expanded="true" signature="24419:24472" ph="UPDATE order... " />
+            <marker date="1519220980145" expanded="true" signature="24814:24864" ph="UPDATE order... " />
+            <marker date="1519220980145" expanded="true" signature="25248:25543" ph="SELECT ingre... ingredient" />
+            <marker date="1519220980145" expanded="true" signature="25248:25653" ph="SELECT ingre... ingredient" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/singleProductAM.jsp">
+    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="204">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaveManager/GetImage.java">
+    <entry file="file://$PROJECT_DIR$/src/EnterManager/OpenSingleProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        <state relative-caret-position="34">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="-68">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BackManager/BackToManager.java">
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/DeleteOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="27" column="73" lean-forward="false" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/singleProductForConsumer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -856,52 +1076,97 @@
     <entry file="file://$PROJECT_DIR$/src/OrderManager/EditOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderManager/DeleteOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Accounts/DeleteUser.java">
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="280">
+          <caret line="44" column="65" lean-forward="false" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java">
+    <entry file="file://$PROJECT_DIR$/src/SaveManager/GetImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveManager/SaveNewResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/DoProductOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/OrderResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="94" lean-forward="false" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OrderManager/ProductOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="28" column="94" lean-forward="false" selection-start-line="28" selection-start-column="94" selection-end-line="28" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/logListA.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="60" column="95" lean-forward="false" selection-start-line="60" selection-start-column="95" selection-end-line="60" selection-end-column="95" />
+        <state relative-caret-position="19">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/productList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/RefuseProductOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="-17">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/singleProductAM.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="69" column="40" lean-forward="true" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -909,268 +1174,8 @@
     <entry file="file://$PROJECT_DIR$/web/basket.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="89" column="62" lean-forward="false" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+          <caret line="32" column="10" lean-forward="true" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ce9737f0-38db-44c6-b468-37495077e346/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/orderingStartPageForCourier.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="86" column="29" lean-forward="false" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="109" lean-forward="true" selection-start-line="40" selection-start-column="109" selection-end-line="40" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/orderingHistory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/orderingAM.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="57" column="62" lean-forward="false" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="61" lean-forward="false" selection-start-line="104" selection-start-column="61" selection-end-line="104" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderManager/OrderResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="114" lean-forward="false" selection-start-line="40" selection-start-column="114" selection-end-line="40" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="58" lean-forward="false" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/supplyListAM.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/supplyListW.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/budget.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addResourcePage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="62" column="56" lean-forward="false" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaveManager/SaveNewResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="52" column="65" lean-forward="false" selection-start-line="52" selection-start-column="65" selection-end-line="52" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/supplyW.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnterManager/EnterFromManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="256" column="35" lean-forward="false" selection-start-line="256" selection-start-column="35" selection-end-line="256" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/productListStartPageForManager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="66" column="77" lean-forward="true" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/DatabaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="543" column="34" lean-forward="true" selection-start-line="543" selection-start-column="34" selection-end-line="543" selection-end-column="34" />
-          <folding>
-            <marker date="1513429715421" expanded="true" signature="308:375" ph="SELECT * FRO... users" />
-            <marker date="1513429715421" expanded="true" signature="866:887" ph="SELECT name product" />
-            <marker date="1513429715421" expanded="true" signature="1253:1310" ph="SELECT name,... product" />
-            <marker date="1513429715421" expanded="true" signature="1664:1726" ph="SELECT * FRO... project_info" />
-            <marker date="1513429715421" expanded="true" signature="2126:2175" ph="SELECT phone... users" />
-            <marker date="1513429715421" expanded="true" signature="2768:2805" ph="SELECT email... users" />
-            <marker date="1513429715421" expanded="true" signature="3404:3523" ph="INSERT INTO users... " />
-            <marker date="1513429715421" expanded="true" signature="4063:4125" ph="SELECT budge... projectinfo" />
-            <marker date="1513429715421" expanded="true" signature="4407:4498" ph="INSERT INTO projectinfo... " />
-            <marker date="1513429715421" expanded="true" signature="5065:5084" ph="SELECT * FRO... users" />
-            <marker date="1513429715421" expanded="true" signature="5406:5434" ph="DELETE FROM " />
-            <marker date="1513429715421" expanded="true" signature="5787:5823" ph="SELECT * FRO... users" />
-            <marker date="1513429715421" expanded="true" signature="6222:6744" ph="SELECT * FRO... order_production" />
-            <marker date="1513429715421" expanded="true" signature="7092:7210" ph="SELECT log.i... log" />
-            <marker date="1513429715421" expanded="true" signature="7559:7634" ph="SELECT budge... projectinfo" />
-            <marker date="1513429715421" expanded="true" signature="7985:8007" ph="SELECT * FRO... resource" />
-            <marker date="1513429715421" expanded="true" signature="8398:8462" ph="SELECT * FRO... order_resources" />
-            <marker date="1513429715421" expanded="true" signature="8480:8643" ph="SELECT * FRO... order_resources" />
-            <marker date="1513429715421" expanded="true" signature="9015:9385" ph="SELECT resou... resource_for_order_resources" />
-            <marker date="1513429715421" expanded="true" signature="9040:9385" ph="SELECT resou... resource_for_order_resources" />
-            <marker date="1513429715421" expanded="true" signature="9464:9557" ph="SELECT * FRO... " />
-            <marker date="1513429715421" expanded="true" signature="9464:9699" ph="SELECT resou... resource_for_order_resources" />
-            <marker date="1513429715421" expanded="true" signature="9464:9702" ph="SELECT * FRO... order_resources" />
-            <marker date="1513429715421" expanded="true" signature="10125:10445" ph="SELECT resou... product" />
-            <marker date="1513429715421" expanded="true" signature="10150:10445" ph="SELECT resou... product" />
-            <marker date="1513429715421" expanded="true" signature="10858:10898" ph="SELECT * FRO... product" />
-            <marker date="1513429715421" expanded="true" signature="11312:11366" ph="SELECT * FRO... product" />
-            <marker date="1513429715421" expanded="true" signature="11780:11936" ph="SELECT * FRO... ingredient" />
-            <marker date="1513429715421" expanded="true" signature="11780:11976" ph="SELECT * FRO... ingredient" />
-            <marker date="1513429715421" expanded="true" signature="12576:12649" ph="INSERT INTO order_production... " />
-            <marker date="1513429715421" expanded="true" signature="12923:12967" ph="SELECT id FR... order_production" />
-            <marker date="1513429715421" expanded="true" signature="13261:13345" ph="INSERT INTO resource_for_order_production... " />
-            <marker date="1513429715421" expanded="true" signature="13849:13912" ph="SELECT * FRO... order_production" />
-            <marker date="1513429715421" expanded="true" signature="14266:14354" ph="DELETE FROM " />
-            <marker date="1513429715421" expanded="true" signature="14482:14521" ph="DELETE FROM " />
-            <marker date="1513429715421" expanded="true" signature="14886:15403" ph="SELECT users... users" />
-            <marker date="1513429715421" expanded="true" signature="15739:15811" ph="UPDATE order... " />
-            <marker date="1513429715421" expanded="true" signature="16153:16233" ph="UPDATE order... " />
-            <marker date="1513429715421" expanded="true" signature="16610:16672" ph="SELECT budge... projectinfo" />
-            <marker date="1513429715421" expanded="true" signature="17104:17135" ph="UPDATE proje... " />
-            <marker date="1513429715421" expanded="true" signature="17524:17569" ph="SELECT price... order_production" />
-            <marker date="1513429715421" expanded="true" signature="18079:18134" ph="INSERT INTO order_resources... " />
-            <marker date="1513429715421" expanded="true" signature="18316:18359" ph="SELECT id FR... order_resources" />
-            <marker date="1513429715421" expanded="true" signature="18676:18761" ph="INSERT INTO resource_for_order_resources... " />
-            <marker date="1513429715421" expanded="true" signature="19235:19286" ph="UPDATE order... " />
-            <marker date="1513429715421" expanded="true" signature="19676:19713" ph="SELECT price... resource" />
-            <marker date="1513429715421" expanded="true" signature="20164:20211" ph="SELECT allpr... order_resources" />
-            <marker date="1513429715421" expanded="true" signature="20654:20713" ph="SELECT * FRO... resource_for_order_resources" />
-            <marker date="1513429715421" expanded="true" signature="21288:21325" ph="SELECT count... resource" />
-            <marker date="1513429715421" expanded="true" signature="21768:21806" ph="UPDATE resou... " />
-            <marker date="1513429715421" expanded="true" signature="22248:22310" ph="INSERT INTO resource... " />
-            <marker date="1513429715421" expanded="true" signature="22759:22802" ph="UPDATE resou... " />
-            <marker date="1513429715421" expanded="true" signature="23116:23158" ph="UPDATE produ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,6 +1221,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>270430</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

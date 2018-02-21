@@ -43,20 +43,5 @@ public class SubmitDeliveryByCourier extends HttpServlet {
             }
         }
         response.sendRedirect("orderingStartPageForCourier.jsp");
-        /*ArrayList<Integer> iList = new ArrayList<>();
-        while (enumeration.hasMoreElements()){
-            String str = enumeration.nextElement();
-            if(str.length()<6){
-                iList.add(Integer.parseInt(str));
-            }
-        }
-        Enumeration<String> second = request.getParameterNames();
-        while (second.hasMoreElements()){
-            String sstr = second.nextElement();
-            if(sstr.length()>6){
-                if(sstr.startsWith("ifordergotten") )
-            }
-        }*/
-
     }
 }

@@ -1,0 +1,83 @@
+body{
+    width : 100%;
+    min-width: 1200px;
+    margin: auto;
+}
+.headerTitle, .contactInfo{
+    box-sizing: border-box;
+    float: left;
+    border:solid black 2px;
+    height: 100px;
+}
+.headerTitle{
+    width: 80%;
+    font-size: 84px;
+    text-align: center;
+}
+.contactInfo{
+    width: 20%;
+    text-align: left;
+    vertical-align: middle;
+    padding : 10px;
+    border-left: hidden;
+}
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+.info{
+    width:80%;
+    float: left;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+thead{
+    border: 2px;
+    font-weight: bold;
+}
+td{
+    border: solid black 1px
+}
+.submitdiv{
+    text-align: right;
+    width: 30%;
+    float: left;
+}
+.orderinglist{
+    padding: 20px;
+    border:solid black 2px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    border-top: hidden;
+}
+.usermodediv{
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+.orderinglist > div{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.namediv{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+.pibtd, .phonetd{
+    width: 20%;
+}
+.addresstd{
+    width: 40%;
+}
+.gettd, .dotd{
+    width: 10%;
+}

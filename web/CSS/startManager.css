@@ -1,0 +1,45 @@
+.products{
+    padding: 1%;
+}
+
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+
+.info{
+    width:80%;
+    float: left;
+}
+table{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+.navigation > form > input{
+    width: 80%;
+    text-align: center;
+}
+.theadpricetd{
+    width: 35%;
+    text-align: center;
+}
+.theadproducttd{
+    width: 65%;
+    text-align: center;
+}
+.nametd{
+    border: solid black 1px;
+    width: 30%;
+}
+.pricetd{
+    border: solid black 1px;
+    width: 20%;
+    text-align: center;
+}
+.editbutton, .deletebutton{
+    width: 25%
+}
+

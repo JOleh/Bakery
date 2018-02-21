@@ -1,0 +1,22 @@
+td{
+    border:solid black 1px;
+}
+thead{
+    border: 2px;
+    font-weight: bold;
+}
+.maindiv{
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: solid black 2px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    width: 50%;
+}

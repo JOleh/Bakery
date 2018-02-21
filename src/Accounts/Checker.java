@@ -1,3 +1,4 @@
+/*
 package Accounts;
 
 import Database.DatabaseManager;
@@ -20,19 +21,15 @@ public class Checker extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String login = (String)request.getParameter("login");
-        String password = (String)request.getParameter("password");
-        System.out.println(login+"   "+password);
+        String login = request.getParameter("login");
+        String password = request.getParameter("password");
         HttpSession session = request.getSession();
         Connection connection = (Connection) session.getAttribute("connection");
         if((login!=null && password!=null)){
-            System.out.println("PL not NULL");
             ResultSet resultSet = DatabaseManager.lodOnUser(connection, login, password);
             if(resultSet!=null) {
-                System.out.println("RS not NULL");
                 try {
                     while (resultSet.next()) {
-                        System.out.println("In resultSet loop");
                         session.setAttribute("name", resultSet.getString("name"));
                         session.setAttribute("surname", resultSet.getString("surname"));
                         session.setAttribute("level", resultSet.getInt("level"));
@@ -64,11 +61,7 @@ public class Checker extends HttpServlet {
                     e.printStackTrace();
                 }
             }
-            else{
-                System.out.println("NO");
-            }
-        }else{
-            System.out.println("not Enter");
         }
     }
 }
+*/

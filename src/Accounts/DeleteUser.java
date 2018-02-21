@@ -24,7 +24,7 @@ public class DeleteUser extends HttpServlet {
             if(current!=null){
                 Integer id = Integer.valueOf(current);
                 System.out.println(id);
-                DatabaseManager.deleteUserById((Connection)request.getSession().getAttribute("connection"), id);
+                    DatabaseManager.removeUser((Connection)request.getSession().getAttribute("connection"), id);
                 response.sendRedirect("workerListStartPageForAdmin.jsp");
             }
         }

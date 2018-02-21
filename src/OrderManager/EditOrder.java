@@ -15,5 +15,6 @@ public class EditOrder extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.sendRedirect("basket.jsp");
+        //TODO
     }
 }

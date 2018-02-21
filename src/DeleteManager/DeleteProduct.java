@@ -27,5 +27,10 @@ public class DeleteProduct extends HttpServlet {
             Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e")+1, name.length()));
             DatabaseManager.removeProduct(connection, id);
         }
+        if(((int)session.getAttribute("level")==5)){
+            response.sendRedirect("productListA.jsp");
+        }else if(((int)session.getAttribute("level")==4)){
+            response.sendRedirect("productListStartPageForManager.jsp");
+        }
     }
 }

@@ -24,12 +24,9 @@ public class OpenProductFromAM extends HttpServlet {
             String current = names.nextElement();
             if(current!=null){
                 Integer id = Integer.valueOf(current);
-                System.out.println(id);
                 HttpSession session = request.getSession();
                 session.setAttribute("chosen_product_id", id);
                 response.sendRedirect("singleProductAM.jsp");
-                //DatabaseManager.deleteUserById((Connection)request.getSession().getAttribute("connection"), id);
-                //response.sendRedirect("workerListStartPageForAdmin.jsp");
             }
         }
     }

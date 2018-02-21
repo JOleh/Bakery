@@ -23,7 +23,6 @@ public class DeleteOrder extends HttpServlet {
             String current = names.nextElement();
             if(current!=null){
                 Integer id = Integer.valueOf(current);
-                System.out.println(id);
                 DatabaseManager.deleteOrder((Connection)request.getSession().getAttribute("connection"), id);
                 response.sendRedirect("orderingHistory.jsp");
             }

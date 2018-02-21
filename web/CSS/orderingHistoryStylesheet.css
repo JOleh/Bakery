@@ -1,0 +1,36 @@
+td{
+    border: solid black 1px;
+}
+thead{
+    border: solid black 2px;
+    font-weight: bold;
+}
+.maindiv{
+    width: 50%;
+    border: solid black 2px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+.tablediv{
+    border: solid black 1px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.allpricediv{
+    text-align: right;
+}
+.nametd{
+    width: 40%;
+}
+.numbertd{
+    width: 25%
+}
+.pricetd{
+    width: 35%;
+}

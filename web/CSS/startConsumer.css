@@ -1,0 +1,50 @@
+.navigation > form  > input, .navigation > input{
+    width: 73%;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+image{
+    width: 280px;
+    height: 300px;
+}
+.name{
+    text-align: center;
+}
+
+.plusminus{
+    width: 80%;
+    text-align: left;
+    float: left;
+}
+.plusminus > input{
+    float:left;width: 40px;
+}
+
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+
+.info{
+    width:80%;
+    float: left;
+}
+.price{
+    text-align: right;
+    float: left;
+
+    width: 20%;
+}
+td{
+    border: 1px solid black;
+    width: 2000px;
+    height:auto;
+    box-sizing: border-box;
+    text-align: center;
+
+    padding: 10px;
+}

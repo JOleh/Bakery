@@ -19,16 +19,9 @@ import java.util.List;
 @WebServlet(name = "GetImage")
 public class GetImage extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        /*response.setContentType("image/png");
-        response.setHeader("Content-disposition", "attachment; filename=myname.png");
-        File file = new File("/file.png");
-        OutputStream out = response.getOutputStream();
-        FileInputStream in = new FileInputStream(file);*/
         if(!ServletFileUpload.isMultipartContent(request)){
-            System.out.println("no download");
             return;
         }
-        //FileItemFactory itemFactory = new DiskFileItemFactory();
         ServletFileUpload upload = new ServletFileUpload();
         try {
             FileItemIterator fileItemIterator = upload.getItemIterator(request);
@@ -38,29 +31,12 @@ public class GetImage extends HttpServlet {
                     System.out.println("шлак");
                 }else{
                     String path = getServletContext().getRealPath("/");
-                    System.out.println("Maybe path   "+path);
                 }
             }
         } catch (FileUploadException e) {
             e.printStackTrace();
         }
-/*
-        try {
-            List<FileItem> items = upload.parseRequest(request);
-            for (FileItem item : items){
-                System.out.println("is it smth there&");
-                String contentType = item.getContentType();
-                if(!contentType.equals("image/png")){
-                    System.out.println("only png");
-                    continue;
-                }
-                System.out.println(item.getName());
-            }
-        } catch (FileUploadException e) {
-            e.printStackTrace();
-        }*/
-
-
+        //todo
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

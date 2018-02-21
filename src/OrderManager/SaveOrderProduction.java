@@ -11,13 +11,11 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.Timestamp;
-import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.Map;
 
 @WebServlet(name = "SaveOrderProduction")
 public class SaveOrderProduction extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 
     }
 
@@ -36,7 +34,8 @@ public class SaveOrderProduction extends HttpServlet {
         double allprice = (double)session.getAttribute("allorderingprice");
 
 
-        DatabaseManager.saveOrderingProduction((Connection)session.getAttribute("connection") ,map, (int)session.getAttribute("id"), new Timestamp(System.currentTimeMillis()),allprice,courier, address );
+        DatabaseManager.saveOrderingProduction((Connection)session.getAttribute("connection") ,
+                map, (int)session.getAttribute("id"), new Timestamp(System.currentTimeMillis()),allprice, address );
         response.sendRedirect("productList.jsp");
     }
 }

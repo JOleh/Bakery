@@ -1,0 +1,54 @@
+table , thead , td, tr{
+    box-sizing: border-box;
+}
+input[type="text"] {
+    width: 100%;
+    text-align: center;
+}
+.exit{
+    width:20%;
+    float: right;
+    vertical-align: top;
+}
+.info{
+    width:80%;
+    float: left;
+}
+td{
+    border:solid black 1px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    border: solid black 2px;
+    font-weight: bold;
+}
+table > tr > td{
+    resize: horizontal;
+    width: 90%;
+}
+.navigation{
+    width: 80%;
+    text-align: center;
+}
+.tablediv{
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid black 1px;
+    width: 100%;
+}
+.deletediv{
+    float: right;
+}
+.okcanceldiv{
+    float: left;;
+}
+.navigation > form > input{
+    width: 80%;
+}
+input#companyTitle{
+    width: 50%;
+}
