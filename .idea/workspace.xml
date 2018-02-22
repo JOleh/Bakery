@@ -6,162 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="with maven">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Bakery_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_servlet_api_6_0_53.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_maskedinput_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/CSS/registrationPageStylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/DeleteUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Accounts/Registration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/BackToAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/BackToConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/BackToManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/BackToWorker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/ExitFromAdministrationAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/BackManager/ExitFromConsumerAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Database/ConnectionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/Database/DatabaseManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromCourier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/classes/EnterManager/EnterFromWorker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/lib/postgresql-42.1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/basket.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/budget.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/logListA.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/orderingAM.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/orderingHistory.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/orderingStartPageForCourier.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productList.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListA.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/productListStartPageForManager.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/registrationPage.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesAM.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/resourcesStartPageForWorker.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/singleProductAM.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/singleProductForConsumer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyListAM.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyListW.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/supplyW.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/Bakery_war_exploded/workerListStartPageForAdmin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Accounts/DeleteUser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Accounts/Registration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/BackToAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/BackToConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/BackToManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/BackToWorker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/ExitFromAdministrationAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/BackManager/ExitFromConsumerAccount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Database/ConnectionFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/Database/DatabaseManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromCourier.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Bakery/EnterManager/EnterFromWorker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Accounts/Checker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/postgresql-42.1.4.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bakery.iml" afterPath="$PROJECT_DIR$/Bakery.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Accounts/AjaxChecker.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/AjaxChecker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Accounts/CheckEmail.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/CheckEmail.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Accounts/CheckPhone.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/CheckPhone.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Accounts/DeleteUser.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/DeleteUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Accounts/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/Registration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/BackToAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/BackToConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/BackToManager.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/BackToWorker.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToWorker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/ExitFromAdministrationAccount.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/ExitFromAdministrationAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/BackManager/ExitFromConsumerAccount.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/ExitFromConsumerAccount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Database/ConnectionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/main/java/database/DatabaseManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DeleteManager/DeleteProduct.java" afterPath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DeleteManager/DeleteResource.java" afterPath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromAdmin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromConsumer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromCourier.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromCourier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromManager.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromManager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/EnterFromWorker.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromWorker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/OpenProductFromAM.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/OpenProductFromAM.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/EnterManager/OpenSingleProduct.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/OpenSingleProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/ConfirmRefuseResourceOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/ConfirmRefuseResourceOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/DeleteOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/DeleteOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/DoProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/DoProductOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/EditOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/EditOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/OrderResource.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/OrderResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/ProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/ProductOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/RefuseProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/RefuseProductOrder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/SaveOrderProduction.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/SaveOrderProduction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/OrderManager/SubmitDeliveryByCourier.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/SubmitDeliveryByCourier.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SaveManager/GetImage.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/GetImage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SaveManager/SaveEditedProduct.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/SaveEditedProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SaveManager/SaveNewResource.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/SaveNewResource.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/BODY.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/BODY.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/EXIT.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/EXIT.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/LogListAStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/LogListAStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/addResourcePageStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/addResourcePageStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/basketStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/basketStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/budgetStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/budgetStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/orderingAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/orderingAMStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/orderingHistoryStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/orderingHistoryStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/productListAStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/productListAStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/registrationPageStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/registrationPageStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/registrationStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/registrationStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/resourceAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/resourceAMStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/singleProductAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductAMStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/singleProductForConsumerStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductForConsumerStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startAdmin.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startAdmin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startConsumer.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startConsumer.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startCourier.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startCourier.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startIndex.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startIndex.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startManager.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startManager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startPage.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startPage.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/startWorker.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startWorker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/supplyListAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListAMStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/supplyListWStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListWStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/CSS/supplyWStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyWStylesheet.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/addResourcePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addResourcePage.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/basket.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basket.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/budget.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/budget.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/enterScript.js" afterPath="$PROJECT_DIR$/src/main/webapp/enterScript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/logListA.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/logListA.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/orderingAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingAM.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/orderingHistory.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/orderingStartPageForCourier.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingStartPageForCourier.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/plugins/jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jquery.maskedinput.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productList.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/productListA.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productListA.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/productListStartPageForManager.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productListStartPageForManager.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/registrationPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/registrationScript.js" afterPath="$PROJECT_DIR$/src/main/webapp/registrationScript.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resourcesAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resourcesAM.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resourcesStartPageForWorker.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resourcesStartPageForWorker.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/singleProductAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/singleProductAM.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/singleProductForConsumer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/singleProductForConsumer.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/supplyListAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyListAM.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/supplyListW.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyListW.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/supplyW.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyW.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/upload.js" afterPath="$PROJECT_DIR$/src/main/webapp/upload.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/workerListStartPageForAdmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/workerListStartPageForAdmin.jsp" />
+    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_8_0_15.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Bakery_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_servlet_api_6_0_53.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Bakery.iml" afterPath="$PROJECT_DIR$/Bakery.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,18 +42,18 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="4981">
               <caret line="293" column="46" lean-forward="false" selection-start-line="293" selection-start-column="46" selection-end-line="293" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="578">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -208,8 +62,8 @@
       <file leaf-file-name="registrationPage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/registrationPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="199">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -218,17 +72,17 @@
       <file leaf-file-name="productListStartPageForManager.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/productListStartPageForManager.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="663">
               <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderingHistory.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orderingHistory.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="578">
               <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
@@ -262,6 +116,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -314,9 +171,9 @@
         <option value="$PROJECT_DIR$/src/main/java/saveManager/GetImage.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/workerListStartPageForAdmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp" />
       </list>
     </option>
   </component>
@@ -382,8 +239,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-23" />
-    <option name="y" value="-13" />
+    <option name="x" value="-8" />
+    <option name="y" value="-19" />
     <option name="width" value="1386" />
     <option name="height" value="785" />
   </component>
@@ -424,7 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -443,63 +300,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="enterManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="saveManager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,11 +314,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libraries/commons-fileupload-1.3.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -538,8 +345,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M263" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M263" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre1.8.0_131">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Bakery:war">
@@ -612,47 +494,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -720,40 +561,6 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
@@ -805,7 +612,11 @@
       <workItem from="1519158095603" duration="14173000" />
       <workItem from="1519206049162" duration="18554000" />
       <workItem from="1519233397773" duration="20190000" />
-      <workItem from="1519260095627" duration="9355000" />
+      <workItem from="1519260095627" duration="11055000" />
+      <workItem from="1519321681591" duration="427000" />
+      <workItem from="1519322432948" duration="213000" />
+      <workItem from="1519322955275" duration="113000" />
+      <workItem from="1519326540034" duration="4454000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1513429996448</created>
@@ -821,38 +632,47 @@
       <option name="project" value="LOCAL" />
       <updated>1519247640471</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="with maven">
+      <created>1519270074733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519270074733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385534000" />
+    <option name="totallyTimeSpent" value="392441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44353518" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31423897" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31181103" sideWeight="0.5121029" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24583964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40797547" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.28610355" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.71389645" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4425197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4062992" sideWeight="0.48789713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18374817" sideWeight="0.28610355" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20574887" sideWeight="0.71389645" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -885,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -893,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,23 +747,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/accounts/Checker.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/accounts/CheckEmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,65 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1519254671636" expanded="true" signature="330:397" ph="SELECT * FRO... users" />
-            <marker date="1519254671636" expanded="true" signature="330:446" ph="SELECT * FRO... users" />
-            <marker date="1519254671636" expanded="true" signature="938:959" ph="SELECT name product" />
-            <marker date="1519254671636" expanded="true" signature="1346:1403" ph="SELECT name,... product" />
-            <marker date="1519254671636" expanded="true" signature="1778:1840" ph="SELECT * FRO... project_info" />
-            <marker date="1519254671636" expanded="true" signature="2213:2262" ph="SELECT phone... users" />
-            <marker date="1519254671636" expanded="true" signature="2746:2783" ph="SELECT email... users" />
-            <marker date="1519254671636" expanded="true" signature="3353:3472" ph="INSERT INTO users... " />
-            <marker date="1519254671636" expanded="true" signature="4066:4128" ph="SELECT budge... projectinfo" />
-            <marker date="1519254671636" expanded="true" signature="4431:4554" ph="INSERT INTO projectinfo... " />
-            <marker date="1519254671636" expanded="true" signature="5121:5140" ph="SELECT * FRO... users" />
-            <marker date="1519254671636" expanded="true" signature="5462:5490" ph="DELETE FROM " />
-            <marker date="1519254671636" expanded="true" signature="5864:5900" ph="SELECT * FRO... users" />
-            <marker date="1519254671636" expanded="true" signature="6299:6903" ph="SELECT * FRO... order_production" />
-            <marker date="1519254671636" expanded="true" signature="7272:7456" ph="SELECT log.i... log" />
-            <marker date="1519254671636" expanded="true" signature="7824:7899" ph="SELECT budge... projectinfo" />
-            <marker date="1519254671636" expanded="true" signature="8250:8272" ph="SELECT * FRO... resource" />
-            <marker date="1519254671636" expanded="true" signature="8651:8715" ph="SELECT * FRO... order_resources" />
-            <marker date="1519254671636" expanded="true" signature="9088:9483" ph="SELECT resou... resource_for_order_resources" />
-            <marker date="1519254671636" expanded="true" signature="9113:9483" ph="SELECT resou... resource_for_order_resources" />
-            <marker date="1519254671636" expanded="true" signature="9909:10254" ph="SELECT resou... product" />
-            <marker date="1519254671636" expanded="true" signature="9934:10254" ph="SELECT resou... product" />
-            <marker date="1519254671636" expanded="true" signature="10667:10707" ph="SELECT * FRO... product" />
-            <marker date="1519254671636" expanded="true" signature="11142:11196" ph="SELECT * FRO... product" />
-            <marker date="1519254671636" expanded="true" signature="11631:11853" ph="SELECT * FRO... ingredient" />
-            <marker date="1519254671636" expanded="true" signature="11631:11893" ph="SELECT * FRO... ingredient" />
-            <marker date="1519254671636" expanded="true" signature="12415:12488" ph="INSERT INTO order_production... " />
-            <marker date="1519254671636" expanded="true" signature="12762:12806" ph="SELECT id FR... order_production" />
-            <marker date="1519254671636" expanded="true" signature="13123:13241" ph="INSERT INTO resource_for_order_production... " />
-            <marker date="1519254671636" expanded="true" signature="13766:13862" ph="SELECT * FRO... order_production" />
-            <marker date="1519254671636" expanded="true" signature="13766:13871" ph="SELECT * FRO... order_production" />
-            <marker date="1519254671636" expanded="true" signature="13766:13881" ph="SELECT * FRO... order_production" />
-            <marker date="1519254671636" expanded="true" signature="14256:14377" ph="DELETE FROM " />
-            <marker date="1519254671636" expanded="true" signature="14505:14544" ph="DELETE FROM " />
-            <marker date="1519254671636" expanded="true" signature="14930:15498" ph="SELECT users... users" />
-            <marker date="1519254671636" expanded="true" signature="15855:15927" ph="UPDATE order... " />
-            <marker date="1519254671636" expanded="true" signature="16290:16403" ph="UPDATE order... " />
-            <marker date="1519254671636" expanded="true" signature="16801:16896" ph="SELECT budge... projectinfo" />
-            <marker date="1519254671636" expanded="true" signature="17328:17359" ph="UPDATE proje... " />
-            <marker date="1519254671636" expanded="true" signature="17769:17814" ph="SELECT price... order_production" />
-            <marker date="1519254671636" expanded="true" signature="18387:18442" ph="INSERT INTO order_resources... " />
-            <marker date="1519254671636" expanded="true" signature="18624:18667" ph="SELECT id FR... order_resources" />
-            <marker date="1519254671636" expanded="true" signature="19007:19129" ph="INSERT INTO resource_for_order_resources... " />
-            <marker date="1519254671636" expanded="true" signature="19624:19675" ph="UPDATE order... " />
-            <marker date="1519254671636" expanded="true" signature="20086:20123" ph="SELECT price... resource" />
-            <marker date="1519254671636" expanded="true" signature="20595:20642" ph="SELECT allpr... order_resources" />
-            <marker date="1519254671636" expanded="true" signature="21106:21165" ph="SELECT * FRO... resource_for_order_resources" />
-            <marker date="1519254671636" expanded="true" signature="21735:21772" ph="SELECT count... resource" />
-            <marker date="1519254671636" expanded="true" signature="22236:22274" ph="UPDATE resou... " />
-            <marker date="1519254671636" expanded="true" signature="22737:22799" ph="INSERT INTO resource... " />
-            <marker date="1519254671636" expanded="true" signature="23269:23312" ph="UPDATE resou... " />
-            <marker date="1519254671636" expanded="true" signature="23647:23689" ph="UPDATE produ... " />
-            <marker date="1519254671636" expanded="true" signature="24020:24060" ph="UPDATE users... " />
-            <marker date="1519254671636" expanded="true" signature="24420:24473" ph="UPDATE order... " />
-            <marker date="1519254671636" expanded="true" signature="24815:24865" ph="UPDATE order... " />
-            <marker date="1519254671636" expanded="true" signature="25249:25544" ph="SELECT ingre... ingredient" />
-            <marker date="1519254671636" expanded="true" signature="25249:25654" ph="SELECT ingre... ingredient" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,7 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1585">
           <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-582">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1239,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,15 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="293" column="46" lean-forward="false" selection-start-line="293" selection-start-column="46" selection-end-line="293" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1327,29 +1031,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/registrationPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="4981">
+          <caret line="293" column="46" lean-forward="false" selection-start-line="293" selection-start-column="46" selection-end-line="293" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/productListStartPageForManager.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="663">
           <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
           <folding />
         </state>
@@ -1357,8 +1052,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="578">
           <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/registrationPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1434,6 +1145,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
