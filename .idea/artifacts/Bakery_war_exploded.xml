@@ -1,17 +1,25 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Bakery:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Bakery_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/Bakery</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="Bakery/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Bakery" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="postgresql-42.1.4" />
-          <element id="library" level="project" name="commons-fileupload-1.3.3-javadoc" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:servlet-api:6.0.53" />
+          <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.1" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery:3.2.1" />
+          <element id="library" level="project" name="Maven: org.webjars:jquery-maskedinput:1.3.1" />
         </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Bakery/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Bakery/web/Web" />
     </root>
   </artifact>
 </component>
