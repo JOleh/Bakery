@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Bakery:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="Bakery-1.0-SNAPSHOT.war">
+    <root id="archive" name="undertow-servlet.war">
       <element id="artifact" artifact-name="Bakery:war exploded" />
     </root>
   </artifact>

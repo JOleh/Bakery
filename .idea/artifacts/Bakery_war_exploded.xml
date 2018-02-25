@@ -1,12 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Bakery:war exploded">
-    <output-path>$PROJECT_DIR$/target/Bakery-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/undertow-servlet</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Bakery" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.logmanager:jboss-logmanager:2.0.3.Final-redhat-1" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.0.15" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.1" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
@@ -17,7 +18,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Bakery-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/undertow-servlet/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Bakery/web/Web" />
     </root>
