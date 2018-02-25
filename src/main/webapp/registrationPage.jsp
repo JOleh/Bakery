@@ -12,8 +12,9 @@
         <link rel="stylesheet" href="CSS/BODY.css">
         <link rel="stylesheet" href="CSS/registrationStylesheet.css">
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script type="text/javascript" src="plugins/jquery.maskedinput.min.js"></script>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery/3.2.1/jquery.js"></script>    <%-- https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>--%>
+        <%--<script type="text/javascript" src="plugins/jquery.maskedinput.min.js"></script>--%>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery-maskedinput/1.3.1/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="registrationScript.js"></script>
 
     </head>

@@ -33,7 +33,8 @@
     <title><%=session.getAttribute("nameP")%></title>
         <link rel="stylesheet" href="CSS/startPage.css">
         <link rel="stylesheet" href="CSS/startIndex.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <%--<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>--%>
+        <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery/3.2.1/jquery.js"></script>
         <script type="text/javascript" src="enterScript.js"></script>
     </head>
     <body>
