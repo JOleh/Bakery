@@ -66,13 +66,13 @@ function register(params) {
             alert("msg");
             var msg = request.responseText;
 
-            jQuery('#name')[0].text("nullll");
+            /*jQuery('#name')[0].text("nullll");
             alert("msg2");
             jQuery('#surname')[0].reset();
             jQuery('#phonenumber')[0].reset();
             jQuery('#email')[0].reset();
             jQuery('#pass1')[0].reset();
-            jQuery('#pass2')[0].reset();
+            jQuery('#pass2')[0].reset();*/
             jQuery('#submit_msg').text(msg);
             //window.location.replace('index.jsp');
         }/*else{
