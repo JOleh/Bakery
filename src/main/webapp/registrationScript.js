@@ -63,29 +63,19 @@ function register(params) {
 
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200){
-            alert("msg");
             var msg = request.responseText;
 
-            /*jQuery('#name')[0].text("nullll");
-            alert("msg2");
-            jQuery('#surname')[0].reset();
-            jQuery('#phonenumber')[0].reset();
-            jQuery('#email')[0].reset();
-            jQuery('#pass1')[0].reset();
-            jQuery('#pass2')[0].reset();*/
             jQuery('#submit_msg').text(msg);
             jQuery('#name').val("");
             jQuery('#surname').val("");
             jQuery('#phonenumber').val("");
             jQuery('#email').val("");
             jQuery('#pass1').val("");
-            //jQuery('#pass2').val("");
-            jQuery('#pass2')[0].reset();
-
+            jQuery('#pass2').val("");
             //window.location.replace('index.jsp');
-        }/*else{
-            jQuery('#submit_msg').text('Problems with registration');
-        }*/
+        }else{
+            jQuery('#submit_msg').text("Problems with registration");
+        }
     };
     request.open('POST', 'Registration');
     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
