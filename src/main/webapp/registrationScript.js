@@ -72,9 +72,9 @@ function register(params) {
             jQuery('#pass2').text('');
             jQuery('#submit_msg').text(msg);
             //window.location.replace('index.jsp');
-        }else{
+        }/*else{
             jQuery('#submit_msg').text('Problems with registration');
-        }
+        }*/
     };
     request.open('POST', 'Registration');
     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
