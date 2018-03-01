@@ -14,6 +14,9 @@
 Кожен користувач має свій рівень доступу і має можливість виконувати певний ряд дій.
 ![Image alt](https://github.com/JOleh/img/blob/master/diagram.jpg)
 
+Структура бази даних.
+![database](https://github.com/JOleh/img/blob/master/Java%20Printing.pdf)
+
 В розробці програмного продукту застосовано :
   - Java Servlet/JSP
   - Tomcat
