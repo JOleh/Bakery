@@ -24,7 +24,7 @@
                 Реєстрація
             </div>
             <div class="filllist">
-                <form action="Registration" method="post">
+                <%--<form action="Registration" method="post">--%>
                     Ім'я
                     <br>
                     <input type="text" name="name" id="name" placeholder="Введіть Ім'я" required>
@@ -60,7 +60,7 @@
                     <div id="submit_msg"></div>
                     <br>
                     <a href="index.jsp">Увійти</a>
-                </form>
+                <%--</form>--%>
             </div>
         </div>
     </body>
