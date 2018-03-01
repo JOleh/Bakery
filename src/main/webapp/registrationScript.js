@@ -64,12 +64,12 @@ function register(params) {
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200){
             var msg = request.responseText;
-            jQuery('#name').text('');
-            jQuery('#surname').text('');
-            jQuery('#phonenumber').text('');
-            jQuery('#email').text('');
-            jQuery('#pass1').text('');
-            jQuery('#pass2').text('');
+            jQuery('#name').val('');
+            jQuery('#surname').val('');
+            jQuery('#phonenumber').val('');
+            jQuery('#email').val('');
+            jQuery('#pass1').val('');
+            jQuery('#pass2').val('');
             jQuery('#submit_msg').text(msg);
             //window.location.replace('index.jsp');
         }/*else{
