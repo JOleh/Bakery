@@ -63,7 +63,7 @@ function register(params) {
 
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200){
-            console("msg");
+            alert("msg");
             var msg = request.responseText;
             jQuery('#name')[0].reset();
             jQuery('#surname')[0].reset();
