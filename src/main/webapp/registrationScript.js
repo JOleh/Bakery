@@ -65,6 +65,9 @@ function register(params) {
         if (request.readyState === 4 && request.status === 200){
             alert("msg");
             var msg = request.responseText;
+            document.getElementById("name").reset();
+            document.getElementById("surname").reset();
+            document.getElementById("phonenumber").reset();
             jQuery('#name')[0].reset();
             jQuery('#surname')[0].reset();
             jQuery('#phonenumber')[0].reset();
