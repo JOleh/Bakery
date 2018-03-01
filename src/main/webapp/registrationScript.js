@@ -65,8 +65,9 @@ function register(params) {
         if (request.readyState === 4 && request.status === 200){
             var msg = request.responseText;
             jQuery('input[name="name"]').val('Введіть і\'мя');
-            jQuery('#surname').val('');
-            jQuery('#phonenumber').val('');
+            alert("What a fuck");
+            jQuery('#surname').text('msg');
+            jQuery('input[name="phonenumber"]').text('243');
             jQuery('#email').val('');
             jQuery('#pass1').val('');
             jQuery('#pass2').val('');
