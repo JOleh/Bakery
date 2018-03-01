@@ -73,9 +73,9 @@ function register(params) {
             jQuery('#pass1').val("");
             jQuery('#pass2').val("");
             //window.location.replace('index.jsp');
-        }else{
+        }/*else{
             jQuery('#submit_msg').text("Problems with registration");
-        }
+        }*/
     };
     request.open('POST', 'Registration');
     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
