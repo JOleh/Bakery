@@ -3,7 +3,6 @@ package orderManager;
 import database.DatabaseManager;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,7 +14,6 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-/*@WebServlet(name = "OrderResource")*/
 public class OrderResource extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -25,7 +23,7 @@ public class OrderResource extends HttpServlet {
         Enumeration<String> names = request.getParameterNames();
         HttpSession session = request.getSession();
         Connection connection = (Connection)session.getAttribute("connection");
-        Map<Integer,Double> map = new HashMap<Integer, Double>();
+        Map<Integer,Double> map = new HashMap<>();
         while(names.hasMoreElements()){
             String str = names.nextElement();
             if(!request.getParameter(str).equals("")){

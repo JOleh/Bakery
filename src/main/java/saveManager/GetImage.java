@@ -10,7 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-/*@WebServlet(name = "GetImage")*/
 public class GetImage extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 

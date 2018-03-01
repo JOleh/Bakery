@@ -1,13 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Bakery:war exploded">
-    <output-path>$PROJECT_DIR$/target/Bakery</output-path>
+    <output-path>$PROJECT_DIR$/target/Bakery-1.0-SNAPSHOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Bakery" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.jboss.logmanager:jboss-logmanager:2.0.3.Final-redhat-1" />
           <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.0.15" />
           <element id="library" level="project" name="Maven: commons-digester:commons-digester:2.1" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
@@ -15,10 +14,25 @@
           <element id="library" level="project" name="Maven: postgresql:postgresql:9.1-901.jdbc4" />
           <element id="library" level="project" name="Maven: org.webjars:jquery:3.2.1" />
           <element id="library" level="project" name="Maven: org.webjars:jquery-maskedinput:1.3.1" />
+          <element id="library" level="project" name="Maven: com.sparkjava:spark-core:2.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.7.7" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-webapp:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-xml:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:9.0.2.v20130417" />
+          <element id="library" level="project" name="Maven: com.sparkjava:spark-template-freemarker:2.0.0" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.19" />
+          <element id="library" level="project" name="Maven: com.heroku.sdk:heroku-jdbc:0.1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Bakery/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/Bakery-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="Bakery/web/Web" />
     </root>

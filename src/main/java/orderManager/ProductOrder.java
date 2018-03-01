@@ -19,7 +19,7 @@ public class ProductOrder extends HttpServlet{
         }else {
             Enumeration<String> nam = request.getParameterNames();
             HttpSession session = request.getSession();
-            Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+            Map<Integer, Integer> map = new HashMap<>();
             while (nam.hasMoreElements()) {
                 String str = nam.nextElement();
                 if (str.length() < 4 && !str.equals("") && !request.getParameter(str).equals("")) {

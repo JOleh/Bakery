@@ -3,7 +3,8 @@
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="database.DatabaseManager" %>
 <%@ page import="java.sql.SQLException" %>
-<%@ page import="sun.misc.BASE64Encoder" %><%--
+<%@ page import="sun.misc.BASE64Encoder" %>
+<%@ page import="java.net.URISyntaxException" %><%--
   Created by IntelliJ IDEA.
   User: admin
   Date: 01.11.2017
@@ -15,7 +16,12 @@
     <head>
         <%
             if(session.getAttribute("connection")==null){
-                Connection connection = ConnectionFactory.getConnection();
+                Connection connection = null;
+                try {
+                    connection = ConnectionFactory.getConnection();
+                } catch (URISyntaxException | SQLException e) {
+                    e.printStackTrace();
+                }
                 session.setAttribute("connection", connection);
                 session.setMaxInactiveInterval(1800);
             }

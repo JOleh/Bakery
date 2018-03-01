@@ -49,7 +49,7 @@
             <div class="products">
                 <table>
                     <%
-                        ArrayList<Integer> idList = new ArrayList<>();
+                        //ArrayList<Integer> idList = new ArrayList<>();
                         try {
                             ResultSet resultSet =
                                     DatabaseManager
@@ -57,7 +57,7 @@
                             int temporary = 0;
                             int i = 0;
                             while(resultSet.next()){
-                                idList.add(resultSet.getInt("id"));
+                                //idList.add(resultSet.getInt("id"));
                                 if(i-temporary==3){
                     %>
                     </tr>

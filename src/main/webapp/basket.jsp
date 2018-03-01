@@ -1,6 +1,4 @@
-<%@ page import="java.util.Enumeration" %>
 <%@ page import="java.util.Map" %>
-<%@ page import="java.net.ConnectException" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="database.DatabaseManager" %><%--

@@ -2,13 +2,22 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="bakery@localhost" uuid="ce9737f0-38db-44c6-b468-37495077e346">
-      <database-info product="PostgreSQL" version="10.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.1.1">
+      <database-info product="PostgreSQL" version="10.0" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
       <introspection-schemas>bakery:public</introspection-schemas>
+    </data-source>
+    <data-source name="ddhg5ibominbk5@ec2-54-243-239-66.compute-1.amazonaws.com" uuid="b5dca240-b8ce-4266-8092-b00372b91668">
+      <database-info product="PostgreSQL" version="10.2 (Ubuntu 10.2-1.pgdg14.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>cagqyhhnxdkvnc</user-name>
+      <introspection-schemas>ddhg5ibominbk5:public</introspection-schemas>
     </data-source>
   </component>
 </project>
