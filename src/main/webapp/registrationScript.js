@@ -74,6 +74,7 @@ function register(params) {
             jQuery('#pass1')[0].reset();
             jQuery('#pass2')[0].reset();*/
             jQuery('#submit_msg').text(msg);
+            alert(jQuery('#email').val());
             //window.location.replace('index.jsp');
         }/*else{
             jQuery('#submit_msg').text('Problems with registration');
