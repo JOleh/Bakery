@@ -114,7 +114,7 @@
                 <input type="password" id="password" placeholder="Введіть пароль">
                 <br>
                 <div id="message"></div>
-                <input type="submit" id="enter" value="Вхід">
+                <input type="button" id="enter" value="Вхід">
                 <br>
                 <a href="registrationPage.jsp">Зареєструватись</a>
           <%--  </form>--%>

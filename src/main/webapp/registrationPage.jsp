@@ -55,7 +55,7 @@
                            placeholder="Введіть пароль" required minlength="8" maxlength="16">
                     <div class="error" id="pass2_msg"></div>
                     <br>
-                    <input type="submit" id="submit" value="Зареєструватись">
+                    <input type="button" id="submit" value="Зареєструватись">
                     <br>
                     <div id="submit_msg"></div>
                     <br>
