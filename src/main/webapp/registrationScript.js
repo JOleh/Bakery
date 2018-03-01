@@ -64,7 +64,7 @@ function register(params) {
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200){
             var msg = request.responseText;
-            jQuery('#name').val('Введіть і\'мя');
+            jQuery('input[name="name"]').val('Введіть і\'мя');
             jQuery('#surname').val('');
             jQuery('#phonenumber').val('');
             jQuery('#email').val('');
