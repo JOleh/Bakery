@@ -24,7 +24,7 @@
                 Реєстрація
             </div>
             <div class="filllist">
-                <form action="r" method="post">
+                <form action="Registration" method="post">
                     Ім'я
                     <br>
                     <input type="text" name="name" id="name" placeholder="Введіть Ім'я" required>
