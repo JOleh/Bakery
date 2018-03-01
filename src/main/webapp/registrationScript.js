@@ -74,8 +74,14 @@ function register(params) {
             jQuery('#pass1')[0].reset();
             jQuery('#pass2')[0].reset();*/
             jQuery('#submit_msg').text(msg);
-            alert(jQuery('#name').val(""));
+            jQuery('#name').val("");
             jQuery('#surname').val("");
+            jQuery('#phonenumber').val("");
+            jQuery('#email').val("");
+            jQuery('#pass1').val("");
+            //jQuery('#pass2').val("");
+            jQuery('#pass2')[0].reset();
+
             //window.location.replace('index.jsp');
         }/*else{
             jQuery('#submit_msg').text('Problems with registration');
