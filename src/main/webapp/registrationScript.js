@@ -63,14 +63,14 @@ function register(params) {
 
     request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200){
+            console("msg");
             var msg = request.responseText;
-            jQuery('input[name="name"]').val('Введіть і\'мя');
-            alert("What a fuck");
-            jQuery('#surname').text('msg');
-            jQuery('input[name="phonenumber"]').text('243');
-            jQuery('#email').val('');
-            jQuery('#pass1').val('');
-            jQuery('#pass2').val('');
+            jQuery('#name')[0].reset();
+            jQuery('#surname')[0].reset();
+            jQuery('#phonenumber')[0].reset();
+            jQuery('#email')[0].reset();
+            jQuery('#pass1')[0].reset();
+            jQuery('#pass2')[0].reset();
             jQuery('#submit_msg').text(msg);
             //window.location.replace('index.jsp');
         }/*else{
