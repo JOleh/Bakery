@@ -6,91 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="fix">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startPageChanges.css" />
+    <list default="true" id="3e5c0964-2c93-4465-83d6-ee39ba95f5e9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Bakery.iml" afterPath="$PROJECT_DIR$/Bakery.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accounts/AjaxChecker.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/AjaxChecker.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accounts/CheckEmail.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/CheckEmail.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accounts/CheckPhone.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/CheckPhone.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accounts/DeleteUser.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/DeleteUser.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/accounts/Registration.java" afterPath="$PROJECT_DIR$/src/main/java/accounts/Registration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/BackToAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToAdmin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/BackToConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToConsumer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/BackToManager.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/BackToWorker.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/BackToWorker.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/ExitFromAdministrationAccount.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/ExitFromAdministrationAccount.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/backManager/ExitFromConsumerAccount.java" afterPath="$PROJECT_DIR$/src/main/java/backManager/ExitFromConsumerAccount.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/DatabaseManager.java" afterPath="$PROJECT_DIR$/src/main/java/database/DatabaseManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteProduct.java" afterPath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteProduct.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteResource.java" afterPath="$PROJECT_DIR$/src/main/java/deleteManager/DeleteResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromAdmin.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromAdmin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromConsumer.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromConsumer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromCourier.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromCourier.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromManager.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromWorker.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/EnterFromWorker.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/OpenProductFromAM.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/OpenProductFromAM.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/enterManager/OpenSingleProduct.java" afterPath="$PROJECT_DIR$/src/main/java/enterManager/OpenSingleProduct.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/ConfirmRefuseResourceOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/ConfirmRefuseResourceOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/DeleteOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/DeleteOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/DoProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/DoProductOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/EditOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/EditOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/OrderResource.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/OrderResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/ProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/ProductOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/RefuseProductOrder.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/RefuseProductOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/SaveOrderProduction.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/SaveOrderProduction.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderManager/SubmitDeliveryByCourier.java" afterPath="$PROJECT_DIR$/src/main/java/orderManager/SubmitDeliveryByCourier.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/saveManager/GetImage.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/GetImage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/saveManager/SaveEditedProduct.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/SaveEditedProduct.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/saveManager/SaveNewResource.java" afterPath="$PROJECT_DIR$/src/main/java/saveManager/SaveNewResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/BODY.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/BODY.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/LogListAStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/LogListAStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/addResourcePageStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/addResourcePageStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/basketStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/basketStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/budgetStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/budgetStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/orderingAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/orderingAMStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/orderingHistoryStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/orderingHistoryStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/productListAStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/productListAStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/registrationStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/registrationStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/resourceAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/resourceAMStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductAMStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductForConsumerStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/singleProductForConsumerStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startAdmin.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startAdmin.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startConsumer.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startConsumer.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startCourier.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startCourier.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startIndex.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startIndex.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startManager.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startManager.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/startWorker.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/startWorker.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListAMStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListAMStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListWStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyListWStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CSS/supplyWStylesheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/CSS/supplyWStylesheet.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addResourcePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/addResourcePage.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/basket.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/basket.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/budget.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/budget.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/enterScript.js" afterPath="$PROJECT_DIR$/src/main/webapp/enterScript.js" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/logListA.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/logListA.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderingAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingAM.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingHistory.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/orderingStartPageForCourier.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/orderingStartPageForCourier.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productList.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/productListA.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productListA.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/productListStartPageForManager.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/productListStartPageForManager.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/registrationScript.js" afterPath="$PROJECT_DIR$/src/main/webapp/registrationScript.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resourcesAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resourcesAM.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resourcesStartPageForWorker.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/resourcesStartPageForWorker.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/singleProductAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/singleProductAM.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/singleProductForConsumer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/singleProductForConsumer.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/supplyListAM.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyListAM.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/supplyListW.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyListW.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/supplyW.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/supplyW.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.js" afterPath="$PROJECT_DIR$/src/main/webapp/upload.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/workerListStartPageForAdmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/workerListStartPageForAdmin.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -161,11 +80,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supplyWStylesheet.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="supplyWStylesheet.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/CSS/supplyWStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/database/DatabaseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -238,8 +187,6 @@
         <option value="$PROJECT_DIR$/src/main/java/saveManager/SaveEditedProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/saveManager/SaveNewResource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/startIndex.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/registrationStylesheet.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/registrationPage.jsp" />
@@ -276,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/singleProductForConsumer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/singleProductAMStylesheet.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/CSS/supplyWStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -402,6 +351,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BakeryProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Bakery" type="b2602c69:ProjectViewProjectNode" />
@@ -749,7 +706,7 @@
       <workItem from="1520969012741" duration="665000" />
       <workItem from="1521218935866" duration="270000" />
       <workItem from="1528117533587" duration="32302000" />
-      <workItem from="1528231631282" duration="8523000" />
+      <workItem from="1528231631282" duration="8969000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1513429996448</created>
@@ -961,14 +918,22 @@
       <option name="project" value="LOCAL" />
       <updated>1519922843596</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix">
+      <created>1528242311229</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1528242311229</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="477102000" />
+    <option name="totallyTimeSpent" value="477548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39542484" sideWeight="0.5136157" order="7" side_tool="true" content_ui="tabs" />
@@ -982,7 +947,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4019608" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4019608" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1029,14 +994,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/orderManager/SubmitDeliveryByCourier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1101,14 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/CSS/registrationStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1121,14 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
           <caret line="124" column="38" lean-forward="false" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="114" column="79" lean-forward="false" selection-start-line="114" selection-start-column="79" selection-end-line="114" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1433,6 +1374,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding />
         </state>
       </provider>

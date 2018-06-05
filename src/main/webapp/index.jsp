@@ -17,11 +17,11 @@
     <%
         if (session.getAttribute("connection") == null) {
             Connection connection = null;
-            /*try {*/
+            try {
             connection = ConnectionFactory.getConnection();
-            /*} catch (URISyntaxException | SQLException e) {
+            } catch (URISyntaxException | SQLException e) {
                 e.printStackTrace();
-            }*/
+            }
             session.setAttribute("connection", connection);
             session.setMaxInactiveInterval(1800);
         }
