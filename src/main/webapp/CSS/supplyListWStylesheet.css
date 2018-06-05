@@ -1,14 +1,15 @@
 td{
-    border: solid black 1px;
+    border: solid #e6bfbf 1px;
 }
 thead{
-    border: solid black 2px;
+    border: solid #f7d3d3 2px;
     font-weight: bold;
 }
 .maindiv{
     width: 50%;
     box-sizing: border-box;
-    border: solid black 2px;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
     margin: 0 auto;
     padding: 20px;
 }
@@ -18,7 +19,9 @@ table{
     margin: 0 auto;
 }
 .tablediv{
-    border: solid black 1px;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
+    background-color:#f9f4fb;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -38,4 +41,24 @@ table{
 }
 .allpricediv{
     text-align: right;
+}
+
+#back {
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 16px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: grey;
+    border: 2px grey solid;
+}
+
+#back:hover{
+    background-color: grey;
+    color: #fff;
 }

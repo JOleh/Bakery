@@ -1,10 +1,12 @@
 body{
+    font-family:cursive;
     padding: 40px;
     min-width: 1200px
 }
 .maindiv{
     width: 40%;
-    border: solid 2px black;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
     padding: 20px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -18,4 +20,23 @@ body{
 }
 .resourcediv > input{
     width: 60%;
+}
+
+#back , #save{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: grey;
+    border: 2px grey solid;
+}
+
+#back:hover , #save:hover{
+    background-color: grey;
+    color: #fff;
 }

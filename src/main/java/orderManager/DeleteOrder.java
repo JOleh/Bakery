@@ -11,19 +11,23 @@ import java.sql.Connection;
 import java.util.Enumeration;
 
 public class DeleteOrder extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Enumeration<String> names = request.getParameterNames();
-        while(names.hasMoreElements()){
-            String current = names.nextElement();
-            if(current!=null){
-                Integer id = Integer.valueOf(current);
-                DatabaseManager.deleteOrder((Connection)request.getSession().getAttribute("connection"), id);
-                response.sendRedirect("orderingHistory.jsp");
-            }
-        }
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    Enumeration<String> names = request.getParameterNames();
+    while (names.hasMoreElements()) {
+      String current = names.nextElement();
+      if (current != null) {
+        Integer id = Integer.valueOf(current);
+        DatabaseManager
+            .deleteOrder((Connection) request.getSession().getAttribute("connection"), id);
+        response.sendRedirect("orderingHistory.jsp");
+      }
     }
+  }
 }

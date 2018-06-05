@@ -10,30 +10,32 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ProductOrder extends HttpServlet{
+public class ProductOrder extends HttpServlet {
 
-    @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(request.getParameter("history")!=null){
-            response.sendRedirect("orderingHistory.jsp");
-        }else {
-            Enumeration<String> nam = request.getParameterNames();
-            HttpSession session = request.getSession();
-            Map<Integer, Integer> map = new HashMap<>();
-            while (nam.hasMoreElements()) {
-                String str = nam.nextElement();
-                if (str.length() < 4 && !str.equals("") && !request.getParameter(str).equals("")) {
-                    map.put(Integer.parseInt(str), Integer.parseInt(request.getParameter(str)));
-                }
-
-            }
-            session.setAttribute("order", map);
-            response.sendRedirect("basket.jsp");
+  @Override
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    if (request.getParameter("history") != null) {
+      response.sendRedirect("orderingHistory.jsp");
+    } else {
+      Enumeration<String> nam = request.getParameterNames();
+      HttpSession session = request.getSession();
+      Map<Integer, Integer> map = new HashMap<>();
+      while (nam.hasMoreElements()) {
+        String str = nam.nextElement();
+        if (str.length() < 4 && !str.equals("") && !request.getParameter(str).equals("")) {
+          map.put(Integer.parseInt(str), Integer.parseInt(request.getParameter(str)));
         }
-    }
 
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+      }
+      session.setAttribute("order", map);
+      response.sendRedirect("basket.jsp");
     }
+  }
+
+  @Override
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+  }
 }

@@ -12,19 +12,22 @@ import java.sql.Connection;
 import java.util.Enumeration;
 
 public class DeleteResource extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-        Connection connection = (Connection)session.getAttribute("connection");
-        Enumeration<String> names = request.getParameterNames();
-        while (names.hasMoreElements()){
-            String name = names.nextElement();
-            Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e")+1, name.length()));
-            DatabaseManager.removeResource(connection, id);
-        }
-        response.sendRedirect("resourcesStartPageForWorker.jsp");
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    HttpSession session = request.getSession();
+    Connection connection = (Connection) session.getAttribute("connection");
+    Enumeration<String> names = request.getParameterNames();
+    while (names.hasMoreElements()) {
+      String name = names.nextElement();
+      Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e") + 1, name.length()));
+      DatabaseManager.removeResource(connection, id);
     }
+    response.sendRedirect("resourcesStartPageForWorker.jsp");
+  }
 }

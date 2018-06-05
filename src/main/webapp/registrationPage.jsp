@@ -7,61 +7,124 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
-    <head>
-        <title>Registration</title>
-        <link rel="stylesheet" href="CSS/BODY.css">
-        <link rel="stylesheet" href="CSS/registrationStylesheet.css">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="CSS/BODY.css">
+    <link rel="stylesheet" href="CSS/registrationStylesheet.css">
 
-        <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery/3.2.1/jquery.js"></script>    <%-- https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>--%>
-        <%--<script type="text/javascript" src="plugins/jquery.maskedinput.min.js"></script>--%>
-        <script type="text/javascript" src="${pageContext.request.contextPath}/webjars/jquery-maskedinput/1.3.1/jquery.maskedinput.js"></script>
-        <script type="text/javascript" src="registrationScript.js"></script>
+    <script type="text/javascript"
+            src="${pageContext.request.contextPath}/webjars/jquery/3.2.1/jquery.js"></script>
+    <%-- https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>--%>
+    <%--<script type="text/javascript" src="plugins/jquery.maskedinput.min.js"></script>--%>
+    <script type="text/javascript"
+            src="${pageContext.request.contextPath}/webjars/jquery-maskedinput/1.3.1/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="registrationScript.js"></script>
 
-    </head>
-    <body>
-        <div class="maindiv">
-            <div class="headerTitle">
-                Реєстрація
-            </div>
-            <div class="filllist">
-                <%--<form action="Registration" method="post">--%>
-                    Ім'я
+</head>
+<body>
+<div class="maindiv">
+    <div class="headerTitle">
+        Реєстрація
+    </div>
+    <%--<div class="filllist">
+        &lt;%&ndash;<form action="Registration" method="post">&ndash;%&gt;
+        Ім'я
+        <br>
+        <input type="text" name="name" id="name" placeholder="Введіть Ім'я" required>
+        <br><br>
+        Прізвище
+        <br>
+        <input type="text" name="surname" id="surname" placeholder="Введіть прізвище" required>
+        <br><br>
+        Номер телефону<br>
+        <input type="tel" name="phonenumber" id="phonenumber"
+               placeholder="Введіть номер телефону" required>
+        <div class="error" id="phone_msg"></div>
+        <br>
+        Email
+        <br>
+        <input type="email" name="email" id="email" placeholder="Введіть email">
+        <div class="error" id="email_msg"></div>
+        <br>
+        Пароль
+        <br>
+        <input type="password" name="password" id="pass1"
+               placeholder="Введіть пароль" required minlength="8" maxlength="16">
+        <div id="pass1_msg"></div>
+        <br>
+        Повторіть пароль
+        <br>
+        <input type="password" name="checkPassword" id="pass2"
+               placeholder="Введіть пароль" required minlength="8" maxlength="16">
+        <div class="error" id="pass2_msg"></div>
+        <br>
+        <input type="button" id="submit" value="Зареєструватись">
+        <br>
+        <div id="submit_msg"></div>
+        <br>
+        <a href="index.jsp">Увійти</a>
+        &lt;%&ndash;</form>&ndash;%&gt;
+    </div>--%>
+    <div class="filllist">
+        <br><br>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <label>Ім'я</label>
                     <br>
-                    <input type="text" name="name" id="name" placeholder="Введіть Ім'я" required>
-                    <br><br>
-                    Прізвище
-                    <br>
-                    <input type="text" name="surname" id="surname" placeholder="Введіть прізвище" required>
-                    <br><br>
-                    Номер телефону<br>
+                    <input type="text" name="name" id="name" placeholder="Введіть Ім'я" required="">
+
+                </td>
+                <td>
+                    <label>Прізвище</label>
+                    <input type="text" name="surname" id="surname" placeholder="Введіть прізвище"
+                           required="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Номер телефону</label><br>
                     <input type="tel" name="phonenumber" id="phonenumber"
-                           placeholder="Введіть номер телефону"  required>
+                           placeholder="Введіть номер телефону" required="">
                     <div class="error" id="phone_msg"></div>
-                    <br>
-                    Email
+                </td>
+                <td>
+                    <label>Email</label>
                     <br>
                     <input type="email" name="email" id="email" placeholder="Введіть email">
                     <div class="error" id="email_msg"></div>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Пароль</label>
                     <br>
-                    Пароль
-                    <br>
-                    <input type="password" name="password" id="pass1"
-                           placeholder="Введіть пароль" required minlength="8" maxlength="16">
+                    <input type="password" name="password" id="pass1" placeholder="Введіть пароль"
+                           required="" minlength="8" maxlength="16">
                     <div id="pass1_msg"></div>
-                    <br>
-                    Повторіть пароль
+                </td>
+                <td>
+                    <label>Повторіть пароль</label>
                     <br>
                     <input type="password" name="checkPassword" id="pass2"
-                           placeholder="Введіть пароль" required minlength="8" maxlength="16">
+                           placeholder="Введіть пароль" required="" minlength="8" maxlength="16">
                     <div class="error" id="pass2_msg"></div>
-                    <br>
-                    <input type="button" id="submit" value="Зареєструватись">
-                    <br>
-                    <div id="submit_msg"></div>
-                    <br>
-                    <a href="index.jsp">Увійти</a>
-                <%--</form>--%>
-            </div>
-        </div>
-    </body>
+                </td>
+
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <input type="button" id="submit" value="Зареєструватись">
+        <br>
+        <div id="submit_msg"></div>
+        <br>
+        <a href="index.jsp">Увійти</a>
+
+    </div>
+</div>
+</body>
 </html>

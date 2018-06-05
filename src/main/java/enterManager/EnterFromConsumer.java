@@ -7,15 +7,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class EnterFromConsumer extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println("doPost");
-    }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(request.getParameter("basket")!=null){
-            response.sendRedirect("basket.jsp");
-        }else if(request.getParameter("history")!=null){
-            response.sendRedirect("orderingHistory.jsp");
-        }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    System.out.println("doPost");
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    if (request.getParameter("basket") != null) {
+      response.sendRedirect("basket.jsp");
+    } else if (request.getParameter("history") != null) {
+      response.sendRedirect("orderingHistory.jsp");
     }
+  }
 }

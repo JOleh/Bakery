@@ -10,21 +10,24 @@ import java.io.IOException;
 import java.sql.Connection;
 
 public class Registration extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String name = request.getParameter("name");
-        String surname = request.getParameter("surname");
-        String email = request.getParameter("email");
-        String phone = request.getParameter("phone");
-        String password = request.getParameter("password");
 
-        DatabaseManager
-                .registerUser((Connection)request.getSession()
-                        .getAttribute("connection"), name, surname, phone, email, password, 1);
-        response.setContentType("text/plain");
-        response.getWriter().write("Successful registration");
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    String name = request.getParameter("name");
+    String surname = request.getParameter("surname");
+    String email = request.getParameter("email");
+    String phone = request.getParameter("phone");
+    String password = request.getParameter("password");
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    DatabaseManager
+        .registerUser((Connection) request.getSession()
+            .getAttribute("connection"), name, surname, phone, email, password, 1);
+    response.setContentType("text/plain");
+    response.getWriter().write("Successful registration");
+  }
 
-    }
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+  }
 }

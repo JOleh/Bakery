@@ -12,27 +12,31 @@ import java.sql.Connection;
 import java.util.Enumeration;
 
 public class ConfirmRefuseResourceOrder extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-        Connection connection = (Connection)session.getAttribute("connection");
-        Enumeration<String> names = request.getParameterNames();
-        while(names.hasMoreElements()){
-            String name = names.nextElement();
-            if(name.startsWith("confirm")){
-                Integer id = Integer.parseInt(name.substring(name.lastIndexOf("m")+1, name.length()));
-                DatabaseManager.setOrderResourcesState(connection, id , true);
-                DatabaseManager.setBudget(connection, -DatabaseManager.getResourceOrderPriceByID(connection,id));
-                DatabaseManager.setResourcesAfterManagerConfirming(connection, id);
-                response.sendRedirect("supplyListAM.jsp");
-            }else if (name.startsWith("refuse")){
-                Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e")+1, name.length()));
-                DatabaseManager.setOrderResourcesState(connection, id , false);
-                response.sendRedirect("supplyListAM.jsp");
-            }
-        }
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    HttpSession session = request.getSession();
+    Connection connection = (Connection) session.getAttribute("connection");
+    Enumeration<String> names = request.getParameterNames();
+    while (names.hasMoreElements()) {
+      String name = names.nextElement();
+      if (name.startsWith("confirm")) {
+        Integer id = Integer.parseInt(name.substring(name.lastIndexOf("m") + 1, name.length()));
+        DatabaseManager.setOrderResourcesState(connection, id, true);
+        DatabaseManager
+            .setBudget(connection, -DatabaseManager.getResourceOrderPriceByID(connection, id));
+        DatabaseManager.setResourcesAfterManagerConfirming(connection, id);
+        response.sendRedirect("supplyListAM.jsp");
+      } else if (name.startsWith("refuse")) {
+        Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e") + 1, name.length()));
+        DatabaseManager.setOrderResourcesState(connection, id, false);
+        response.sendRedirect("supplyListAM.jsp");
+      }
     }
+  }
 }

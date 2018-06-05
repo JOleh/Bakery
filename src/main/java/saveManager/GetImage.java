@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class GetImage extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
         /*ServletFileUpload upload = new ServletFileUpload();
         if(!ServletFileUpload.isMultipartContent(request)){
@@ -30,10 +32,11 @@ public class GetImage extends HttpServlet {
         } catch (FileUploadException e) {
             e.printStackTrace();
         }*/
-        //todo
-    }
+    //todo
+  }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    }
+  }
 }

@@ -1,228 +1,231 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mybakery</groupId>
-    <artifactId>Bakery</artifactId>
-    <packaging>war</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <name>Bakery</name>
-    <url>http://maven.apache.org</url>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mybakery</groupId>
+  <artifactId>Bakery</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Bakery</name>
+  <url>http://maven.apache.org</url>
 
+
+  <!--openshift-->
+  <!--<repositories>
+      <repository>
+          <id>eap</id>
+          <url>http://maven.repository.redhat.com/techpreview/all</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+              <enabled>true</enabled>
+          </snapshots>
+      </repository>
+  </repositories>
+  <pluginRepositories>
+      <pluginRepository>
+          <id>eap</id>
+          <url>http://maven.repository.redhat.com/techpreview/all</url>
+          <releases>
+              <enabled>true</enabled>
+          </releases>
+          <snapshots>
+              <enabled>true</enabled>
+          </snapshots>
+      </pluginRepository>
+  </pluginRepositories>-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <!--openshift-->
+    <!--<version.undertow>1.3.25.Final-redhat-1</version.undertow>
+    <version.jboss.logmanager>2.0.3.Final-redhat-1</version.jboss.logmanager>-->
+  </properties>
+
+  <dependencies>
 
     <!--openshift-->
-    <!--<repositories>
-        <repository>
-            <id>eap</id>
-            <url>http://maven.repository.redhat.com/techpreview/all</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>eap</id>
-            <url>http://maven.repository.redhat.com/techpreview/all</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>-->
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <!--openshift-->
-        <!--<version.undertow>1.3.25.Final-redhat-1</version.undertow>
-        <version.jboss.logmanager>2.0.3.Final-redhat-1</version.jboss.logmanager>-->
-    </properties>
+    <!--<dependency>
+        <groupId>org.jboss.logmanager</groupId>
+        <artifactId>jboss-logmanager</artifactId>
+        <version>${version.jboss.logmanager}</version>
+    </dependency>-->
 
-    <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
 
-        <!--openshift-->
-        <!--<dependency>
-            <groupId>org.jboss.logmanager</groupId>
-            <artifactId>jboss-logmanager</artifactId>
-            <version>${version.jboss.logmanager}</version>
-        </dependency>-->
+    <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-servlet-api</artifactId>
+      <version>8.0.15</version>
+    </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.0</version>
+      <scope>provided</scope>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-servlet-api -->
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>tomcat-servlet-api</artifactId>
-            <version>8.0.15</version>
-        </dependency>
+    <dependency>
+      <groupId>commons-digester</groupId>
+      <artifactId>commons-digester</artifactId>
+      <version>2.1</version>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.0</version>
-            <scope>provided</scope>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
+    <dependency>
+      <groupId>postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>9.1-901.jdbc4</version>
+    </dependency>
 
-        <dependency>
-            <groupId>commons-digester</groupId>
-            <artifactId>commons-digester</artifactId>
-            <version>2.1</version>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>3.2.1</version>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
-        <dependency>
-            <groupId>postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>9.1-901.jdbc4</version>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/org.webjars/jquery-maskedinput -->
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-maskedinput</artifactId>
+      <version>1.3.1</version>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>jquery</artifactId>
-            <version>3.2.1</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.webjars/jquery-maskedinput -->
-        <dependency>
-            <groupId>org.webjars</groupId>
-            <artifactId>jquery-maskedinput</artifactId>
-            <version>1.3.1</version>
-        </dependency>
-
-        <!--heroku-->
-        <dependency>
-            <groupId>com.sparkjava</groupId>
-            <artifactId>spark-core</artifactId>
-            <version>2.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sparkjava</groupId>
-            <artifactId>spark-template-freemarker</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.heroku.sdk</groupId>
-            <artifactId>heroku-jdbc</artifactId>
-            <version>0.1.1</version>
-        </dependency>
-
-    </dependencies>
     <!--heroku-->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.0.2</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals><goal>copy</goal></goals>
-                        <configuration>
-                            <artifactItems>
-                                <artifactItem>
-                                    <groupId>com.github.jsimone</groupId>
-                                    <artifactId>webapp-runner</artifactId>
-                                    <version>8.5.27.0</version>
-                                    <destFileName>webapp-runner.jar</destFileName>
-                                </artifactItem>
-                            </artifactItems>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+    <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-core</artifactId>
+      <version>2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-template-freemarker</artifactId>
+      <version>2.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.heroku.sdk</groupId>
+      <artifactId>heroku-jdbc</artifactId>
+      <version>0.1.1</version>
+    </dependency>
 
-    <!--openshift-->
-    <!--<profiles>
-        <profile>
-            <id>fat-jar</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <build>
-                <finalName>Bakery</finalName>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-shade-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <phase>package</phase>
-                                <goals>
-                                    <goal>shade</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            &lt;!&ndash; When built in OpenShift the 'openshift' profile will be used when invoking mvn. &ndash;&gt;
-            &lt;!&ndash; Use this profile for any OpenShift specific customization your app will need. &ndash;&gt;
-            &lt;!&ndash; By default that is to put the resulting archive into the 'deployments' folder. &ndash;&gt;
-            &lt;!&ndash; http://maven.apache.org/guides/mini/guide-building-for-different-environments.html &ndash;&gt;
-            <id>openshift</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-war-plugin</artifactId>
-                        <version>3.2.0</version>
-                        <configuration>
-                            <outputDirectory>deployments</outputDirectory>
-                            <warName>ROOT</warName>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
-    <build>
-        &lt;!&ndash; Maven will append the version to the finalName (which is the name
-           given to the generated war, and hence the context root) &ndash;&gt;
-        <finalName>${project.artifactId}</finalName>
-        <plugins>
-            &lt;!&ndash; Compiler plugin enforces Java 1.6 compatibility and activates
-               annotation processors &ndash;&gt;
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.7.0</version>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    &lt;!&ndash; Java EE 6 doesn't require web.xml, Maven needs to catch
-                       up! &ndash;&gt;
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                </configuration>
-            </plugin>
-            &lt;!&ndash; The JBoss AS plugin deploys your war to a local JBoss AS container &ndash;&gt;
-            &lt;!&ndash; To use, run: mvn package jboss-as:deploy &ndash;&gt;
-            <plugin>
-                <groupId>org.jboss.as.plugins</groupId>
-                <artifactId>jboss-as-maven-plugin</artifactId>
-                <version>7.9.Final</version>
-            </plugin>
-        </plugins>
-    </build>-->
+  </dependencies>
+  <!--heroku-->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.0.2</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>copy</goal>
+            </goals>
+            <configuration>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>com.github.jsimone</groupId>
+                  <artifactId>webapp-runner</artifactId>
+                  <version>8.5.27.0</version>
+                  <destFileName>webapp-runner.jar</destFileName>
+                </artifactItem>
+              </artifactItems>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!--openshift-->
+  <!--<profiles>
+      <profile>
+          <id>fat-jar</id>
+          <activation>
+              <activeByDefault>true</activeByDefault>
+          </activation>
+          <build>
+              <finalName>Bakery</finalName>
+              <plugins>
+                  <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-shade-plugin</artifactId>
+                      <executions>
+                          <execution>
+                              <phase>package</phase>
+                              <goals>
+                                  <goal>shade</goal>
+                              </goals>
+                          </execution>
+                      </executions>
+                  </plugin>
+              </plugins>
+          </build>
+      </profile>
+      <profile>
+          &lt;!&ndash; When built in OpenShift the 'openshift' profile will be used when invoking mvn. &ndash;&gt;
+          &lt;!&ndash; Use this profile for any OpenShift specific customization your app will need. &ndash;&gt;
+          &lt;!&ndash; By default that is to put the resulting archive into the 'deployments' folder. &ndash;&gt;
+          &lt;!&ndash; http://maven.apache.org/guides/mini/guide-building-for-different-environments.html &ndash;&gt;
+          <id>openshift</id>
+          <build>
+              <plugins>
+                  <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-war-plugin</artifactId>
+                      <version>3.2.0</version>
+                      <configuration>
+                          <outputDirectory>deployments</outputDirectory>
+                          <warName>ROOT</warName>
+                      </configuration>
+                  </plugin>
+              </plugins>
+          </build>
+      </profile>
+  </profiles>
+  <build>
+      &lt;!&ndash; Maven will append the version to the finalName (which is the name
+         given to the generated war, and hence the context root) &ndash;&gt;
+      <finalName>${project.artifactId}</finalName>
+      <plugins>
+          &lt;!&ndash; Compiler plugin enforces Java 1.6 compatibility and activates
+             annotation processors &ndash;&gt;
+          <plugin>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.7.0</version>
+              <configuration>
+                  <source>1.6</source>
+                  <target>1.6</target>
+              </configuration>
+          </plugin>
+          <plugin>
+              <artifactId>maven-war-plugin</artifactId>
+              <version>3.2.0</version>
+              <configuration>
+                  &lt;!&ndash; Java EE 6 doesn't require web.xml, Maven needs to catch
+                     up! &ndash;&gt;
+                  <failOnMissingWebXml>false</failOnMissingWebXml>
+              </configuration>
+          </plugin>
+          &lt;!&ndash; The JBoss AS plugin deploys your war to a local JBoss AS container &ndash;&gt;
+          &lt;!&ndash; To use, run: mvn package jboss-as:deploy &ndash;&gt;
+          <plugin>
+              <groupId>org.jboss.as.plugins</groupId>
+              <artifactId>jboss-as-maven-plugin</artifactId>
+              <version>7.9.Final</version>
+          </plugin>
+      </plugins>
+  </build>-->
 </project>

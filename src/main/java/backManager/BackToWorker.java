@@ -7,11 +7,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class BackToWorker extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect("resourcesStartPageForWorker.jsp");
-    }
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    response.sendRedirect("resourcesStartPageForWorker.jsp");
+  }
 }

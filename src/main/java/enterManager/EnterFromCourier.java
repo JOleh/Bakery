@@ -7,14 +7,17 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class EnterFromCourier extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    if (request.getParameter("userRegime") != null) {
+      response.sendRedirect("productList.jsp");
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        if(request.getParameter("userRegime")!=null){
-            response.sendRedirect("productList.jsp");
-        }
-
-    }
+  }
 }

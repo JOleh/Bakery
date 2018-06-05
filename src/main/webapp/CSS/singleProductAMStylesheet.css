@@ -3,10 +3,12 @@ body{
     min-width: 1200px;
 }
 .maindiv{
+    font-family:cursive;
     width: 50%;
     margin: 0 auto;
-    padding: 20px;
-    border: solid black 2px;
+    padding: 40px;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
 }
 table{
     width: 100%;
@@ -64,4 +66,31 @@ iframe{
 }
 .imgdiv{
     text-align: center;
+}
+
+.OKbutton > form > input, .backbutton > form > input{
+    width: 160px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: grey;
+    border: 2px grey solid;
+}
+.OKbutton > form > input:hover, .backbutton > form > input:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+#iCount, .namediv > input, .pricediv > input{
+    font-size: 16px;
+    width:130px;
+    border: none;
+    color: #1d1718;
+    border-bottom: 1px solid #9c9c9c;
 }

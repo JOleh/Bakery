@@ -12,19 +12,22 @@ import java.sql.Connection;
 import java.util.Enumeration;
 
 public class RefuseProductOrder extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    }
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession();
-        Connection connection = (Connection)session.getAttribute("connection");
-        Enumeration<String> names = request.getParameterNames();
-        while(names.hasMoreElements()){
-            String name = names.nextElement();
-            Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e")+1, name.length()));
-            DatabaseManager.refuseProductOrder(connection, id);
-        }
-        response.sendRedirect("orderingAM.jsp");
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    HttpSession session = request.getSession();
+    Connection connection = (Connection) session.getAttribute("connection");
+    Enumeration<String> names = request.getParameterNames();
+    while (names.hasMoreElements()) {
+      String name = names.nextElement();
+      Integer id = Integer.parseInt(name.substring(name.lastIndexOf("e") + 1, name.length()));
+      DatabaseManager.refuseProductOrder(connection, id);
     }
+    response.sendRedirect("orderingAM.jsp");
+  }
 }

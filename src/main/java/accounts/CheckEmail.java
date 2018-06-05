@@ -10,19 +10,22 @@ import java.io.IOException;
 import java.sql.Connection;
 
 public class CheckEmail extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String email = request.getParameter("email");
-        if(DatabaseManager.isEmailUsed((Connection)request.getSession()
-                .getAttribute("connection"), email)){
-            response.setContentType("text/plain");
-            response.getWriter().write("Email is already in use");
-        }else{
-            response.setContentType("text/plain");
-            response.getWriter().write("");
-        }
-    }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+  protected void doPost(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+    String email = request.getParameter("email");
+    if (DatabaseManager.isEmailUsed((Connection) request.getSession()
+        .getAttribute("connection"), email)) {
+      response.setContentType("text/plain");
+      response.getWriter().write("Email is already in use");
+    } else {
+      response.setContentType("text/plain");
+      response.getWriter().write("");
     }
+  }
+
+  protected void doGet(HttpServletRequest request, HttpServletResponse response)
+      throws ServletException, IOException {
+
+  }
 }

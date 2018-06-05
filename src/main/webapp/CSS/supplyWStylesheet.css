@@ -1,16 +1,18 @@
 td{
-    border: solid black 1px;
+    border: solid #b9b2b2 1px;
 }
 thead{
-    border: solid black 2px;
+    border: solid #c1b7b7 2px;
     font-weight: bold;
 }
 .maindiv{
+    font-family: cursive;
     width: 50%;
     margin: 0 auto;
     box-sizing: border-box;
-    border: solid black 2px;
-    padding: 20px;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
+    padding: 40px;
 }
 table{
     width: 100%;
@@ -30,4 +32,29 @@ table > tr > td{
 .pricetd{
     width: 25%;
     text-align: center;
+}
+
+#back , #order{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: grey;
+    border: 2px grey solid;
+}
+
+#back:hover , #order:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+.field{
+    width:140px;
+    border: none;
+    color: #1d1718;
+    border-bottom: 1px solid #9c9c9c;
 }

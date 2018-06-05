@@ -1,12 +1,15 @@
 body{
+
     box-sizing: border-box;
 }
 .maindiv{
+    font-family:cursive;
     width: 50%;
     margin: auto;
-    padding: 20px;
+    padding: 40px;
     box-sizing: border-box;
-    border: solid black 2px;
+    -webkit-box-shadow: 1px 0 5px -2px black;
+    box-shadow: 1px 0 5px -2px black;
 }
 image{
     height: 300px;
@@ -34,4 +37,23 @@ image{
 }
 .basketbutton{
     float: right;
+}
+
+#back , #bask{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    display: inline-block;
+    color: grey;
+    border: 2px grey solid;
+}
+
+#back:hover , #bask:hover{
+    background-color: grey;
+    color: #fff;
 }
